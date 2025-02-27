@@ -1,5 +1,5 @@
 ## ThinkingModels
-This is the codebase supplemnting my application to Neel's MATS 8.0 stream. 
+This is the codebase supplementing my application to Neel's MATS 8.0 stream. 
 
 
 #### Structure
