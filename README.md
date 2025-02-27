@@ -25,7 +25,6 @@ This is the codebase supplemnting my application to Neel's MATS 8.0 stream.
     ├── cache_activations.ipynb              
     ├── plot_scores.ipynb              
 ├── README.md 
-
 ├── requirements.txt
 ```
 #### General Info
