@@ -2,7 +2,7 @@
 This is the codebase supplemnting my application to Neel's MATS 8.0 stream. 
 
 
-#### Code Structure
+#### Structure
 ```
 ├── src
     ├── cache_activations.py                    
