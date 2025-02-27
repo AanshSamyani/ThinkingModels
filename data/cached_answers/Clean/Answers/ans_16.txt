@@ -1,0 +1,124 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Alright, so I have this math problem here: I need to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, interesting. Let me think about how to approach this.
+
+First, let me make sure I understand what an odd natural number is. Odd numbers are numbers that are not divisible by 2. So, they are 1, 3, 5, 7, and so on. So, the first few odd natural numbers are 1, 3, 5, 7, etc. Okay, so I need to add up the first n of these numbers and show that their sum is n squared.
+
+Let me write that down:
+
+Sum = 1 + 3 + 5 + 7 + ... + (2n-1)
+
+Wait, why 2n-1? Because the nth odd number is actually 2n-1. For example, when n=1, it's 1; n=2, it's 3; n=3, it's 5, and so on. That makes sense.
+
+So, my sum is from k=1 to k=n of (2k-1), right? So, Sum = Σ (2k-1) from k=1 to n.
+
+I think I can split this sum into two separate sums. Maybe I can write it as:
+
+Sum = Σ 2k - Σ 1 from k=1 to n.
+
+Yes, that should work. Let me compute each part separately.
+
+First, Σ 2k from k=1 to n. That's just 2 times the sum of the first n natural numbers. The formula for the sum of the first n natural numbers is n(n+1)/2. So,
+
+Σ 2k = 2 * [n(n+1)/2] = n(n+1)
+
+Okay, that simplifies to n squared plus n. Wait, no. Wait, n squared plus n is just that. So, Σ 2k is n^2 + n.
+
+Now, the second part is Σ 1 from k=1 to n. That's just adding 1 a total of n times, so that's n.
+
+So, putting it all together:
+
+Sum = [n(n+1)] - n = n^2 + n - n = n^2
+
+Wait, so that actually gives me n squared. So, that proves it.
+
+But hold on, maybe I should check with a specific example to make sure this makes sense.
+
+Let's take n=3. The first three odd numbers are 1, 3, 5. Their sum is 1+3+5=9. And 3 squared is 9. Okay, that works.
+
+Another example: n=4. First four odd numbers are 1,3,5,7. Their sum is 1+3+5+7=16, which is 4 squared. That checks out too.
+
+How about n=5? First five odd numbers: 1,3,5,7,9. Sum is 25, which is 5 squared. Looks good.
+
+Wait, maybe I should think about why this works. Is there a more intuitive way to see this?
+
+I know that the sum of consecutive odd numbers forms a square. That's the idea behind this proof. When you lay them out, they form a square shape. For example, 1 is a 1x1 square. Adding 3 makes a 2x2 square. Adding 5 makes a 3x3 square, and so on.
+
+That's pretty cool. So, visualizing it as a square helps to understand why the sum is n squared.
+
+Is there another way to approach this? Maybe using induction?
+
+Let me try mathematical induction.
+
+Base case: n=1.
+
+Sum = 1, which is 1 squared. So, the base case holds.
+
+Inductive step: Assume that for some k ≥ 1, the sum of the first k odd numbers is k squared.
+
+Then, for k+1, we need to show that the sum is (k+1)^2.
+
+But wait, the sum of the first k+1 odd numbers is the sum of the first k plus the (k+1)th odd number.
+
+By induction hypothesis, the sum of the first k is k squared. The (k+1)th odd number is 2(k+1)-1 = 2k+1.
+
+So, Sum = k^2 + (2k +1) = k^2 + 2k +1 = (k+1)^2.
+
+Thus, by induction, the formula holds for all natural numbers n.
+
+So, both the algebraic approach and mathematical induction confirm that the sum of the first n odd natural numbers is n squared.
+
+Wait, just to be thorough, let me try n=6.
+
+First six odd numbers:1,3,5,7,9,11. Their sum is 1+3=4, +5=9, +7=16, +9=25, +11=36. 36 is 6 squared. Perfect.
+
+One last check: maybe n=0. Hmm, the problem says the first n odd natural numbers. If n=0, then the sum is zero, which is equal to 0 squared, which is also zero. So, it holds there too.
+
+I think that covers it. The proof is solid both algebraically and through induction. Visualizing it as a square also reinforces the concept, so I feel confident about the result.
+</think>
+
+To prove that the sum of the first \( n \) odd natural numbers is equal to \( n^2 \), we can proceed as follows:
+
+1. **Identify the Sequence**: The first \( n \) odd natural numbers are \( 1, 3, 5, 7, \ldots, (2n - 1) \).
+
+2. **Express the Sum**: Let \( S \) be the sum of these \( n \) terms:
+   \[
+   S = 1 + 3 + 5 + 7 + \ldots + (2n - 1)
+   \]
+
+3. **Separate the Sum**: The sum can be rewritten by separating the constant term and the sum of odd numbers:
+   \[
+   S = \sum_{k=1}^{n} (2k - 1) = \sum_{k=1}^{n} 2k - \sum_{k=1}^{n} 1
+   \]
+
+4. **Compute the Sums**:
+   - The first sum is twice the sum of the first \( n \) natural numbers:
+     \[
+     \sum_{k=1}^{n} 2k = 2 \times \frac{n(n + 1)}{2} = n(n + 1)
+     \]
+   - The second sum is simply adding 1 \( n \) times:
+     \[
+     \sum_{k=1}^{n} 1 = n
+     \]
+
+5. **Combine the Results**:
+   \[
+   S = n(n + 1) - n = n^2 + n - n = n^2
+   \]
+
+Thus, the sum of the first \( n \) odd natural numbers is indeed \( n^2 \).
+
+```lean4
+theorem sum_first_n_odd : ∀ n, Sum (fun k : ℕ => (2 * k : ℕ)) (Set.range fun k : ℕ => (k : ℕ)) = n^2 := by
+  intro n
+  induction n with
+  | zero => simp
+  | succ n ih =>
+    -- Simplify the sum expression using the properties of sum and the definition of the range
+    simp_all [Nat.sum_range_succ, Nat.succ_eq_add_one]
+    -- Simplify the resulting expression using algebraic rules
+    ring
+    -- Use omega to solve the resulting linear equation
+    <;> omega
+```<｜end▁of▁sentence｜>

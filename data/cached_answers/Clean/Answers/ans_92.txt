@@ -1,0 +1,63 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I need to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, let me think about this step by step.
+
+First off, what exactly are the first n odd natural numbers? Let me list them out to visualize. The first odd natural number is 1, the second is 3, the third is 5, and so on. So, the sequence is 1, 3, 5, 7, ..., up to the nth term. Got it.
+
+Now, the sum of these numbers needs to be equal to n². Let me denote the sum as S. So, S = 1 + 3 + 5 + 7 + ... + (2n-1). Okay, I think that makes sense because the nth odd number can be expressed as 2n - 1. So, S is the sum of the first n odd numbers, each of which is 2k - 1 where k goes from 1 to n.
+
+Wait, maybe there's a different way to represent these numbers. I recall something about sequences and series, so maybe I can use a formula for the sum of an arithmetic series. Is this an arithmetic series?
+
+Yes, because each term increases by 2, which is a constant difference. So, the first term a₁ is 1, and the common difference d is 2. That should fit the arithmetic series formula, right?
+
+The formula for the sum of the first n terms of an arithmetic series is S_n = n/2 * (a₁ + aₙ). So, in this case, a₁ is 1 and aₙ, which is the nth term, is 2n - 1. Plugging these into the formula gives:
+
+S_n = n/2 * (1 + (2n - 1)).
+
+Let me compute what's inside the parentheses first. 1 + (2n - 1) simplifies to 2n. So, now the equation becomes:
+
+S_n = n/2 * 2n.
+
+The 2 and the n in the denominator cancel out the 2 in the numerator, so that leaves us with:
+
+S_n = n * n, which is n².
+
+Wow, that worked out perfectly. So, by using the arithmetic series formula, I was able to show that the sum indeed equals n squared. That seems solid, but let me double-check by testing with small values of n to ensure my logic is sound.
+
+For example, when n = 1, the first odd natural number is 1, so the sum should be 1. Plugging into my formula, 1² = 1, which matches.
+
+When n = 2, the sum is 1 + 3 = 4. 2 squared is 4, so that works too.
+
+n = 3: 1 + 3 + 5 = 9. 3 squared is 9. Perfect.
+
+n = 4: 1 + 3 + 5 + 7 = 16. 4 squared is 16. Still holds.
+
+Let me try n = 5: 1 + 3 + 5 + 7 + 9 = 25. 5 squared is 25. Yep, looks good.
+
+So, both algebraically and numerically, the sum seems to hold true. I think I've got it!
+</think>
+
+The sum of the first \( n \) odd natural numbers is indeed equal to \( n^2 \). Here's a step-by-step proof:
+
+1. **Identify the Sequence**: The first \( n \) odd natural numbers form the sequence \( 1, 3, 5, 7, \dots, (2n-1) \).
+
+2. **Arithmetic Series Formula**: This sequence is an arithmetic series where the first term \( a_1 = 1 \) and the common difference \( d = 2 \).
+
+3. **Sum Formula for Arithmetic Series**:
+   \[
+   S_n = \frac{n}{2} \times (a_1 + a_n)
+   \]
+   Here, \( a_n = 2n - 1 \).
+
+4. **Apply the Terms to the Sum Formula**:
+   \[
+   S_n = \frac{n}{2} \times (1 + (2n - 1)) = \frac{n}{2} \times 2n = n^2
+   \]
+   
+5. **Verification with Examples**:
+   - For \( n = 1 \): \( S_1 = 1^2 = 1 \)
+   - For \( n = 2 \): \( S_2 = 1 + 3 = 4 = 2^2 \)
+   - Continue for \( n = 3, 4, 5 \) to confirm the pattern holds.
+
+Thus, the sum of the first \( n \) odd natural numbers equals \( n^2 \).<｜end▁of▁sentence｜>

@@ -1,0 +1,131 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Alright, so I've been given this problem: Prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, sounds interesting. Let me think about how I can approach this.
+
+First, I need to understand what exactly the problem is asking. The first n odd natural numbers would be 1, 3, 5, 7, ..., up to the nth term. So, if n is 1, it's just 1. If n is 2, it's 1 + 3, and so on. The claim is that when you add these up, the total is equal to n squared.
+
+Okay, so maybe I can start by writing out the sum for a few small values of n to see if the pattern holds. Let's try n=1: sum = 1. Is that equal to 1 squared? Yes, 1=1. Good start. Now n=2: sum=1+3=4. 4 is 2 squared. That's interesting. n=3: sum=1+3+5=9, which is 3 squared. n=4: 1+3+5+7=16, which is 4 squared. Hmm, so the pattern seems to hold for these small numbers. So maybe this is a general pattern, not just a coincidence for n=1,2,3,4.
+
+Now, how can I prove this in general? Maybe I can use mathematical induction, which I've heard about before. It's a proof technique where you show that if it works for one case, it works for the next one. Let's recall how mathematical induction works.
+
+First, I need to show the base case, which is the statement being true for n=1. Then, assume it's true for some arbitrary natural number k, and then prove it's true for k+1. If both steps are valid, then by induction, the statement is true for all natural numbers n.
+
+Alright, let's start with the base case. For n=1: the sum is just 1, and 1 squared is also 1, so the base case holds.
+
+Now, let's assume that the statement is true for some arbitrary positive integer k. That is, 1 + 3 + 5 + ... + (2k -1) = k squared. This is our induction hypothesis.
+
+Next, I need to prove that the statement holds for k+1. So, the sum up to the (k+1)th term should be (k+1) squared. Let's write that down.
+
+Sum up to (k+1) terms = Sum up to k terms + (2(k+1) -1) = k squared + (2k +2 -1) = k squared + (2k +1).
+
+Simplify that: k squared + 2k +1. Wait, isn't that (k+1) squared? Because (k+1) squared is k squared + 2k +1. Exactly! So, if we assume the statement is true for k, then it's also true for k+1.
+
+Therefore, by mathematical induction, the statement holds for all natural numbers n.
+
+Wait a second, did I make an assumption about 2k +1 being correct? Let me check that. The induction hypothesis is that the sum of the first k odd numbers is k squared. The next odd number after (2k -1) is (2k +1), right? Because odd numbers are spaced by 2. So, 2k -1 +2 = 2k +1. So yes, that step is correct.
+
+Alternatively, maybe there's another way to approach this without induction. For example, I could observe that the sum of the first n odd numbers forms a square, which is n squared.
+
+But honestly, I feel like induction was the straightforward approach here, especially since the pattern is clear for small n, and the induction method can handle such cases effectively.
+
+Another thought: maybe there's a direct algebraic proof without induction. If I can express the sum of the first n odd numbers as n squared, that would do. The first odd number is 1, which is 1 squared. The second is 3, which is 2 squared -1. The third is 5, which is 3 squared -4, but that seems a bit convoluted. Not sure if that helps.
+
+Alternatively, I remember that the sum of an arithmetic series can be found using the formula: number of terms divided by 2 multiplied by (first term plus last term). Let me see if that works here.
+
+In this case, the first term is 1, the last term is (2n -1), since the nth odd number is 2n -1. The number of terms is n. So, applying the formula:
+
+Sum = n /2 * (1 + (2n -1)) = n /2 * (2n) = n^2.
+
+Wow, that's a neat direct proof using the arithmetic series formula. That seems much simpler than trying to use induction.
+
+But wait, how do I know the formula for the sum of an arithmetic series works here? Let me double-check.
+
+An arithmetic series has a common difference between consecutive terms. Here, the difference between each odd number is 2, so that's a common difference of 2.
+
+The formula for the sum of the first n terms of an arithmetic series is S_n = n/2 * (a_1 + a_n), where a_1 is the first term and a_n is the nth term.
+
+So, plugging in the values we have:
+
+a_1 = 1, a_n = 2n -1, number of terms n.
+
+Thus, S_n = n/2 * (1 + (2n -1)) = n/2 * 2n = n^2.
+
+Perfect! So that gives another way to prove it without induction, directly using the formula.
+
+Hmm, so both methods seem valid. Mathematical induction is a solid approach, especially for proving statements that depend on natural numbers and are based on initial conditions, while the arithmetic series formula is a standard tool for summing evenly spaced numbers.
+
+But the arithmetic series approach is more straightforward here, and it reinforces the idea that the sum of the first n odd numbers is indeed n squared.
+
+Still, going back to the induction method. Let me make sure I haven't missed any steps or made any errors in the reasoning.
+
+Starting with the base case, n=1: sum =1, which is 1 squared. Good.
+
+Assume for some arbitrary natural number k, that the sum of the first k odd numbers is k squared.
+
+Then, for k+1, the sum is the sum of the first k terms plus the (k+1)th term, which is (2(k+1) -1)=2k +2 -1=2k +1.
+
+So, Sum = k squared + 2k +1 = (k+1)^2, since (k+1)^2 expands to k squared + 2k +1.
+
+Thus, the induction step holds, and by mathematical induction, the statement is true for all natural numbers n.
+
+Alright, I think that covers it. I've approached it in two ways: induction and arithmetic series. Both confirm that the sum of the first n odd natural numbers is indeed n squared.
+
+But just to ensure I'm not missing anything, maybe I can think of another angle. Perhaps induction is not necessary, and the formula itself serves as a proof.
+
+Another idea is to visualize the numbers. For instance, arranging dots in a square formation. Each odd number can represent a layer around a square, adding one more on each side. So, starting with 1 (a 1x1 square), adding 3 gives a 2x2 square, adding 5 gives a 3x3 square, and so on. Hence, n odd numbers arranged this way make an n x n square, which is n squared in area. That's a geometric proof and gives intuition why the sum equals n squared.
+
+Alternatively, perhaps I can use algebraic identities. I know that the sum of the first n natural numbers is n(n+1)/2, which is a well-known formula. But that's a different sum. Here, we're dealing with odd numbers, which are spaced more closely.
+
+But wait, I just used the arithmetic series formula, which can be seen as a more general approach. So, by applying the arithmetic series formula directly to the odd numbers, I can bypass the need for induction or relying on induction in a separate step.
+
+In any case, all these different approaches confirm that the statement is true, reinforcing my confidence in the result. So, it seems that multiple methods can be employed to prove that the sum of the first n odd natural numbers is indeed n squared. Whether through induction, direct application of the arithmetic series formula, or even a more visual, geometric approach, each method validates the statement.
+
+Therefore, I can conclude that the sum of the first n odd natural numbers equals n squared, as the mathematical proofs using induction, direct algebraic methods, and geometric interpretations all corroborate this result.
+</think>
+
+To prove that the sum of the first \( n \) odd natural numbers is equal to \( n^2 \), we can use mathematical induction. Here's a step-by-step explanation:
+
+**Proof by Mathematical Induction:**
+
+1. **Base Case (n = 1):**
+   - The first odd natural number is 1.
+   - Sum = 1.
+   - \( 1^2 = 1 \).
+   - Thus, the statement holds for \( n = 1 \).
+
+2. **Inductive Step:**
+   - Assume the statement is true for some arbitrary positive integer \( k \). That is:
+     \[
+     1 + 3 + 5 + \ldots + (2k - 1) = k^2
+     \]
+   - We need to show that the statement holds for \( k + 1 \):
+     \[
+     1 + 3 + 5 + \ldots + (2k - 1) + (2(k + 1) - 1) = (k + 1)^2
+     \]
+   - Simplify the left-hand side:
+     \[
+     k^2 + (2k + 2 - 1) = k^2 + 2k + 1 = (k + 1)^2
+     \]
+   - Thus, if the statement holds for \( k \), it also holds for \( k + 1 \).
+
+3. **Conclusion:**
+   - By the principle of mathematical induction, the statement holds for all natural numbers \( n \).
+
+Therefore, the sum of the first \( n \) odd natural numbers is equal to \( n^2 \).
+
+```lean4
+theorem sum_odds_eq_n_squared (n : ℕ) :
+  (Σ k in Finset.range n, (2 * k + 1)) = n ^ 2 := by
+  -- Base case: when n = 0, the sum is 0, which is 0^2.
+  induction n with
+  | zero =>
+    simp
+  | succ n hn =>
+    -- Inductive step: assume the statement holds for n, prove it for n + 1.
+    simp_all [Finset.sum_range_succ, pow_add, Nat.pow_succ]
+    -- Simplify the expression using algebraic identities.
+    ring_nf
+    -- Use omega to solve the resulting equation.
+    omega
+```<｜end▁of▁sentence｜>

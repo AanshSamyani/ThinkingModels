@@ -1,0 +1,53 @@
+<｜begin▁of▁sentence｜>A rectangle has a length that is 6 times its width. If the perimeter is 84 cm, what are the dimensions?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+To find the dimensions of the rectangle, I start by letting the width be \( w \) centimeters. Since the length is 6 times the width, the length would then be \( 6w \) centimeters.
+
+Next, I use the formula for the perimeter of a rectangle, which is \( P = 2 \times (\text{length} + \text{width}) \). Plugging in the values, I get the equation \( 84 = 2 \times (6w + w) \).
+
+Simplifying inside the parentheses, I have \( 84 = 2 \times 7w \), which leads to \( 84 = 14w \). Solving for \( w \), I find that the width is \( 6 \) centimeters. 
+
+Finally, calculating the length by multiplying the width by 6, I determine that the length is \( 36 \) centimeters.
+</think>
+
+To find the dimensions of the rectangle, let's follow these steps:
+
+1. **Let \( w \) represent the width of the rectangle in centimeters.**
+2. **Express the length in terms of \( w \):**
+   
+   Since the length is 6 times the width,
+   \[
+   \text{Length} = 6w
+   \]
+
+3. **Use the formula for the perimeter of a rectangle:**
+   
+   The perimeter \( P \) is given by,
+   \[
+   P = 2 \times (\text{Length} + \text{Width})
+   \]
+   
+   Substituting the known values,
+   \[
+   84 = 2 \times (6w + w)
+   \]
+
+4. **Simplify the equation:**
+   \[
+   84 = 2 \times 7w \\
+   84 = 14w
+   \]
+
+5. **Solve for \( w \):**
+   \[
+   w = \frac{84}{14} \\
+   w = 6 \text{ cm}
+   \]
+
+6. **Find the length:**
+   \[
+   \text{Length} = 6w = 6 \times 6 = 36 \text{ cm}
+   \]
+
+**Final Answer:**
+\[
+\boxed{\text{Width: 6 cm, Length: 36 cm}}
+\]<｜end▁of▁sentence｜>

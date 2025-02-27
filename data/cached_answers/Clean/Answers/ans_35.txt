@@ -1,0 +1,97 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I need to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, let me start by understanding what exactly the problem is asking for. 
+
+First, let's clarify what odd natural numbers are. Odd numbers are numbers that aren't divisible by 2, right? So, the sequence of odd natural numbers starts with 1, 3, 5, 7, and so on. Each subsequent odd number is 2 more than the previous one. For example, after 1 comes 3 (which is 1 + 2), then 5 (which is 3 + 2), and so on.
+
+Now, the problem is asking about the sum of the first n odd numbers. Let me denote these numbers as O₁, O₂, O₃, ..., Oₙ. So, O₁ = 1, O₂ = 3, O₃ = 5, ..., Oₙ = 2n - 1. Wait, why is Oₙ equal to 2n - 1? Let me check for small n. If n=1, then O₁ = 2(1) - 1 = 1, which is correct. If n=2, O₂ = 2(2) - 1 = 3, which also matches. For n=3, O₃ = 5, which is correct as well. So, yes, Oₙ = 2n - 1.
+
+Alright, so the sum S of the first n odd numbers is S = O₁ + O₂ + O₃ + ... + Oₙ = 1 + 3 + 5 + ... + (2n - 1). I need to find a general formula for this sum and show that it equals n².
+
+Hmm, how can I approach this? Maybe by induction or by finding a pattern. Let me see if I can find a pattern with small n.
+
+For n=1: Sum is 1. 1 squared is 1. So, holds.
+
+For n=2: Sum is 1 + 3 = 4. 2 squared is 4. Still holds.
+
+For n=3: Sum is 1 + 3 + 5 = 9. 3 squared is 9. Holds again.
+
+For n=4: Sum is 1 + 3 + 5 + 7 = 16. 4 squared is 16. It seems to hold for these small cases. But I need a general proof.
+
+Let me think about how the sum progresses. The first term is 1, the second is 3, the third is 5, and so on. Each term increases by 2. So, we're adding consecutive odd numbers.
+
+I wonder if there's a way to visualize this. Maybe by arranging dots in a square pattern. If I can create n layers where each layer adds two more dots than the previous, maybe that forms a square.
+
+Wait, let me think of the sequence of odd numbers and how their sum relates to square numbers. I recall that the sum of the first n natural numbers is n(n + 1)/2. But here, we're dealing with odd numbers. Hmm, is there a connection?
+
+Wait a second, each odd number can be expressed as 2k - 1, as I thought earlier. So, the sum S = Σ (2k - 1) from k=1 to n. That would be 2Σk - Σ1. Using the formula for the sum of the first n natural numbers, Σk = n(n + 1)/2, and Σ1 = n. So plugging in, we get S = 2*(n(n + 1)/2) - n = n(n + 1) - n = n² + n - n = n². So, algebraically, that gives S = n².
+
+Wait, that worked out nicely. So, using algebra, I can prove the formula. But maybe I should try a different approach, like using induction, just to be thorough.
+
+Mathematical induction is a solid method for proofs involving natural numbers. So, let's try that.
+
+First, the base case: n=1. Sum is 1, which equals 1². So, base case holds.
+
+Now, assume that the formula holds for some integer k, that is, the sum of the first k odd numbers is k². So, S_k = 1 + 3 + 5 + ... + (2k - 1) = k².
+
+Now, consider the sum for k + 1, which would be S_{k+1} = S_k + (2(k + 1) - 1) = k² + (2k + 2 - 1) = k² + 2k + 1 = (k + 1)².
+
+Since S_{k+1} equals (k + 1)², the formula holds for k + 1, assuming it holds for k. Therefore, by induction, the formula holds for all natural numbers n.
+
+So, both algebraically and by induction, I can show that the sum of the first n odd natural numbers is n². It looks like the problem was solved effectively.
+
+Wait, but earlier I thought of another way. Maybe visualizing the numbers as dots in a grid. If I arrange the odd numbers, 1, 3, 5, ..., in a way that completes a square, perhaps that's a way to see why the sum is a square number.
+
+For example, for n=3, the sum is 9, which is a 3x3 square. Let me see if I can represent the sum of the first n odd numbers as a square grid:
+
+- 1 can be represented as a single dot.
+- 3 adds dots to make a 2x2 square, so adding 2 more dots.
+- 5 adds dots to make a 3x3 square, adding 4 more dots.
+- And so on.
+
+Each time we add the next odd number, which is 2k - 1, we're effectively adding a layer around the previous square, increasing each side by 1, thus forming a larger square of side length k.
+
+Therefore, the total number of dots, which is the sum of the first k odd numbers, equals k².
+
+This visual approach helps reinforce the idea that the sum of the first n odd numbers forms a square, and hence, the sum is n². It’s a neat way to see why this relationship holds, connecting number theory with geometry.
+
+I think I have a solid understanding now. Both algebraic manipulation and a visual, constructive approach support the conclusion that the sum of the first n odd natural numbers is indeed n squared. It’s satisfying to see how different mathematical concepts can interplay to arrive at the same result.
+</think>
+
+The sum of the first \( n \) odd natural numbers equals \( n^2 \). Here's a step-by-step explanation:
+
+1. **Define the Odd Numbers**: The sequence of the first \( n \) odd natural numbers is \( 1, 3, 5, 7, \ldots, (2n - 1) \).
+
+2. **Sum the Numbers**: Let \( S \) be the sum of these \( n \) terms:
+   \[
+   S = 1 + 3 + 5 + \cdots + (2n - 1)
+   \]
+
+3. **Use Algebraic Formula**: The sum of the first \( n \) odd numbers can be expressed using the formula for the sum of an arithmetic series. Each odd number can be written as \( 2k - 1 \), where \( k \) ranges from 1 to \( n \).
+
+4. **Express the Sum**:
+   \[
+   S = \sum_{k=1}^{n} (2k - 1)
+   \]
+
+5. **Simplify the Sum**:
+   \[
+   S = 2\sum_{k=1}^{n} k - \sum_{k=1}^{n} 1
+   \]
+   \[
+   S = 2\left( \frac{n(n + 1)}{2} \right) - n
+   \]
+   \[
+   S = n(n + 1) - n
+   \]
+   \[
+   S = n^2 + n - n
+   \]
+   \[
+   S = n^2
+   \]
+
+6. **Conclusion**: Therefore, the sum of the first \( n \) odd natural numbers is \( n^2 \).
+
+This proof confirms that \( 1 + 3 + 5 + \cdots + (2n - 1) = n^2 \), a fundamental result in mathematics.<｜end▁of▁sentence｜>

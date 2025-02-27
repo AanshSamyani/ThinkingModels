@@ -1,0 +1,123 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I have this math problem here that says I need to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, that sounds interesting. I remember that natural numbers are just the counting numbers, like 1, 2, 3, and so on. Odd numbers would be 1, 3, 5, 7, etc. So the first n odd numbers would be 1, 3, 5, ..., up to the nth odd number.
+
+Let me write this down. The first n odd numbers would be:
+
+1, 3, 5, ..., 2n-1.
+
+So I need to add all these numbers together and show that it equals n squared. Maybe I can start by writing out the sum for small values of n to see if it works.
+
+Let's try n = 1. The first odd number is 1. Sum is 1. n squared is 1 squared, which is also 1. So that works.
+
+Now n = 2. First two odd numbers are 1 and 3. Sum is 1 + 3 = 4. 2 squared is 4. Still works.
+
+n = 3. First three odd numbers: 1, 3, 5. Sum is 1 + 3 + 5 = 9. 3 squared is 9. Cool.
+
+n = 4. First four odd numbers: 1, 3, 5, 7. Sum is 1 + 3 + 5 + 7 = 16. 4 squared is 16. Nice.
+
+So it seems like this works for small values of n. That gives me some confidence, but I need a general proof for any n.
+
+Maybe there's a pattern or a formula for the sum of the first n odd numbers. Let me think about how these odd numbers are structured. Each odd number can be expressed as 2k - 1, where k starts at 1. So the first term is when k=1: 2(1) -1 = 1. The second is 2(2) -1 = 3, and so on.
+
+So the nth term would be 2n -1. Therefore, the sum S(n) of the first n odd numbers would be:
+
+S(n) = 1 + 3 + 5 + ... + (2n -1).
+
+Now, I need a way to find a formula for this sum. I remember that sometimes the sum of consecutive numbers can be represented as a series, and there are formulas for those. But I'm not sure about the sum of odd numbers specifically.
+
+Wait, maybe I can pair the terms or find another pattern. Let's write out the sum:
+
+1 + 3 + 5 + ... + (2n -1).
+
+If I group them in pairs:
+
+(1 + 2n -1) + (3 + 2n -3) + ... until I have n terms.
+
+Simplifying each pair:
+
+First pair: 1 + (2n -1) = 2n.
+
+Second pair: 3 + (2n -3) = 2n.
+
+Third pair: 5 + (2n -5) = 2n.
+
+And so on.
+
+Wait, that's interesting. Each pair adds up to 2n. How many pairs are there? Well, since there are n terms, if n is even, there would be n/2 pairs. If n is odd, the middle term would be alone, but 2n remains the same.
+
+Wait, no, let's clarify. For n=4, 4 terms: two pairs, each summing to 2n=8. So the total sum is 2*8=16, which is indeed 4 squared.
+
+Similarly, for n=3, 3 terms: two pairs and the middle term. Each pair sums to 6 (since 2*3=6), and the middle term is 5. So sum is 6 + 5=11, which is not 3 squared. Wait, that contradicts. What's wrong here?
+
+Wait, no, in n=3 case, sum is 1 + 3 +5 =9, which is 3 squared. But my pairing was wrong.
+
+Wait, wait, in the pairing I did earlier, I assumed each pair adds to 2n, but for n=3, 2n=6, but 1 +5=6, but 3 is the middle term. So 6 +3=9, which is correct.
+
+So maybe the pairing works regardless of whether n is even or odd.
+
+Let me try n=5. First five odd numbers: 1, 3, 5, 7, 9. Sum is 1+3+5+7+9=25, which is 5 squared.
+
+Now, pairing:
+
+1 +9=10,
+
+3 +7=10,
+
+5 is the middle term.
+
+Total sum is 10 +10 +5=25. Correct.
+
+Another approach: Maybe using the formula for the sum of an arithmetic series.
+
+An arithmetic series has a formula: S = n/2 * (first term + last term).
+
+Let's apply that.
+
+First term is 1, last term is 2n -1.
+
+Sum S(n) = n/2 * (1 + (2n -1)) = n/2 * (2n) = n^2.
+
+Ah! There we go. That's a simpler way.
+
+Wait, that's actually the formula for the sum of an arithmetic series. Since the odd numbers themselves form an arithmetic sequence with common difference 2, this formula applies here.
+
+So using the arithmetic series formula, I can directly compute the sum as:
+
+S(n) = n/2 * (first term + last term).
+
+First term is 1, last term is 2n -1.
+
+Thus, S(n) = n/2 * (1 + 2n -1) = n/2 * (2n) = n^2.
+
+Yay! That works. So that proves that the sum of the first n odd natural numbers is equal to n squared.
+
+Wait, let me make sure this makes sense. Because earlier when I tried n=3, I thought there was a conflict, but now it's clear.
+
+When n=3: arithmetic series with first term 1, last term 5. Sum is (3/2)(1 +5)= (3/2)(6)=9=3 squared.
+
+Similarly, for n=4: first term 1, last term7. Sum is (4/2)(1+7)=2*8=16=4 squared.
+
+Perfect. So this formula works for any n. Therefore, I've proven it.
+
+But I need to make sure I didn't assume what I wanted to prove. I started with the arithmetic series formula, which applies to any arithmetic sequence, and since the odd numbers form such a sequence, I can use this formula.
+
+So this seems solid. No need to think any further.
+
+Final answer: The sum of the first n odd natural numbers is n squared because the sum can be represented using the arithmetic series formula where the first term is 1, the last term is (2n -1), and applying the formula gives n squared.
+</think>
+
+The sum of the first \( n \) odd natural numbers is equal to \( n^2 \) because these numbers form an arithmetic sequence. Using the formula for the sum of an arithmetic series:
+
+\[
+S(n) = \frac{n}{2} \times (\text{first term} + \text{last term})
+\]
+
+Here, the first term is 1, and the last term is \( 2n - 1 \). Substituting these values into the formula:
+
+\[
+S(n) = \frac{n}{2} \times (1 + (2n - 1)) = \frac{n}{2} \times 2n = n^2
+\]
+
+Thus, the sum of the first \( n \) odd natural numbers is \( n^2 \).<｜end▁of▁sentence｜>

@@ -1,0 +1,70 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Alright, so I need to figure out why the sum of the first n odd natural numbers is equal to n squared. Hmm, let's start by writing out what the first few odd numbers are. They go like 1, 3, 5, 7, 9, and so on. Okay, so if I take the sum of these, for n=1 it's just 1, which is 1 squared. That works. For n=2, 1+3 is 4, which is also 2 squared. Nice. Let's try n=3: 1+3+5=9, which is 3 squared. Seems consistent so far.
+
+Maybe I should use a formula. I remember there's a formula for the sum of an arithmetic series. It's something like S = n/2 * (first term + last term). Yeah, that sounds right. Let me apply that here. The first term is 1, and the last term for the nth odd number... Wait, what's the last term? The nth odd number... Hmm, the sequence of odd numbers is 1, 3, 5, ..., which can be represented as 2k-1 where k starts at 1. So, the nth odd number would be 2n - 1. Okay, so using the arithmetic series formula: S = n/2 * (1 + (2n -1)).
+
+Let me compute that: 1 + (2n -1) is just 2n. So, S = n/2 * 2n = n * n = n squared. That's it! So, the sum of the first n odd natural numbers is indeed n squared.
+
+Wait, let me verify with n=4. 1+3+5+7 should equal 16. Let's add them: 1+3 is 4, plus 5 is 9, plus 7 is 16. Yep, that works. What about n=5? 1+3+5+7+9=25, which is 5 squared. Perfect.
+
+Is there another way to see this? Maybe by induction. Base case: n=1, sum is 1, which is 1 squared. Now assume that for some k, the sum of first k odd numbers is k squared. Then, the sum of first k+1 would be k squared plus (2k+1). Let me compute that: k squared + 2k +1 = (k+1)^2. Yes, that shows it holds for k+1. So by induction, the formula works.
+
+Alternatively, using the identity that the sum of consecutive odd numbers forms a square. I think this is a well-known result. But I might have forgotten how to derive it exactly, but I think the arithmetic series approach was the key here.
+
+Let me summarize my thoughts: The first n odd natural numbers form an arithmetic sequence with first term 1 and common difference 2. The sum can be calculated using the arithmetic series formula, which simplifies to n squared. Additionally, induction proves the formula holds for all natural numbers n. Thus, the sum of the first n odd natural numbers is n squared.
+</think>
+
+The sum of the first \( n \) odd natural numbers is indeed equal to \( n^2 \). Here's a step-by-step explanation of why this is true:
+
+1. **Identify the Sequence:**
+   The first \( n \) odd natural numbers are: 1, 3, 5, 7, ..., up to the \( n \)-th term.
+
+2. **Determine the Pattern:**
+   Each term can be expressed as \( 2k - 1 \), where \( k \) ranges from 1 to \( n \).
+
+3. **Apply the Arithmetic Series Formula:**
+   The formula for the sum of an arithmetic series is:
+   \[
+   S = \frac{n}{2} \times (\text{First term} + \text{Last term})
+   \]
+   Here, the first term (\( a_1 \)) is 1, and the last term (\( a_n \)) is \( 2n - 1 \).
+
+4. **Compute the Sum:**
+   Substitute into the formula:
+   \[
+   S = \frac{n}{2} \times (1 + (2n - 1)) = \frac{n}{2} \times 2n = n^2
+   \]
+
+5. **Verification with Examples:**
+   - For \( n = 1 \):
+     \[
+     S = 1^2 = 1
+     \]
+   - For \( n = 2 \):
+     \[
+     S = 1 + 3 = 4 = 2^2
+     \]
+   - For \( n = 3 \):
+     \[
+     S = 1 + 3 + 5 = 9 = 3^2
+     \]
+   - For \( n = 4 \):
+     \[
+     S = 1 + 3 + 5 + 7 = 16 = 4^2
+     \]
+   - For \( n = 5 \):
+     \[
+     S = 1 + 3 + 5 + 7 + 9 = 25 = 5^2
+     \]
+
+6. **Inductive Proof:**
+   - **Base Case:** For \( n = 1 \), the sum is 1, which is \( 1^2 \).
+   - **Inductive Step:** Assume the sum of the first \( k \) odd numbers is \( k^2 \). Then, the sum of the first \( k+1 \) numbers is:
+     \[
+     k^2 + (2k + 1) = k^2 + 2k + 1 = (k+1)^2
+     \]
+     Thus, the formula holds for \( k+1 \).
+
+By both the arithmetic series formula and mathematical induction, the sum of the first \( n \) odd natural numbers is \( n^2 \).<｜end▁of▁sentence｜>

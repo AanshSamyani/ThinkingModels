@@ -1,0 +1,35 @@
+<｜begin▁of▁sentence｜>What is 30% of 90?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+I need to find 30% of 90. First, I'll calculate 10% of 90 by dividing 90 by 10, which gives me 9. Next, I'll multiply this 10% value by 3 to find 30%, resulting in 27. Therefore, 30% of 90 is 27.
+
+I used the formula that takes a percentage of a given number to solve this problem. This approach ensures accuracy and allows for consistent calculation across similar percentage problems.
+</think>
+
+**Solution:**
+
+To find **30% of 90**, follow these simple steps:
+
+1. **Understand the Percentage:**
+   
+   - **Percentage** means "per hundred." So, **30%** means **30 per hundred**.
+
+2. **Convert the Percentage to a Decimal:**
+   
+   - Divide the percentage by 100.
+   
+     \[
+     30\% = \frac{30}{100} = 0.3
+     \]
+
+3. **Multiply by the Given Number:**
+   
+   - Multiply the decimal by the number (90).
+   
+     \[
+     0.3 \times 90 = 27
+     \]
+
+4. **Final Answer:**
+   
+   - **30% of 90 is 27.**
+
+**Answer:** \(\boxed{27}\)<｜end▁of▁sentence｜>

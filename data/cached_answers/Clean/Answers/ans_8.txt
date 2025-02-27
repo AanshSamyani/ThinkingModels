@@ -1,0 +1,145 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I need to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, let's see. I remember that odd numbers are numbers like 1, 3, 5, 7, and so on. So the first few odd numbers are 1, 3, 5, 7, etc. I think the sum of the first n odd numbers follows a specific pattern. 
+
+Maybe I can start by writing down the first few odd numbers and their sums to see if I can find a pattern. Let's see:
+
+For n = 1: Only the first odd number is 1. So the sum is 1. Is this equal to 1 squared? Yes, 1 = 1².
+
+For n = 2: The first two odd numbers are 1 and 3. The sum is 1 + 3 = 4. Is this equal to 2 squared? Yes, 4 = 2².
+
+For n = 3: The first three odd numbers are 1, 3, 5. The sum is 1 + 3 + 5 = 9. That's 3², so it still holds.
+
+Wait, so the pattern seems to work for these small numbers. But how do I prove it for any n? Maybe I can find a general formula.
+
+Let me denote the first n odd numbers as follows. The k-th odd number can be expressed as 2k - 1, where k starts at 1. So the first n odd numbers are 2(1) - 1, 2(2) - 1, ..., up to 2(n) - 1.
+
+So the sum S of the first n odd numbers would be the sum from k = 1 to n of (2k - 1). I can write this as:
+
+S = ∑_{k=1}^{n} (2k - 1)
+
+Let me break this sum into two separate sums:
+
+S = ∑_{k=1}^{n} 2k - ∑_{k=1}^{n} 1
+
+Which simplifies to:
+
+S = 2∑_{k=1}^{n} k - ∑_{k=1}^{n} 1
+
+I know that the sum of the first n natural numbers is given by n(n + 1)/2. So:
+
+∑_{k=1}^{n} k = n(n + 1)/2
+
+And the sum of 1 added n times is just n:
+
+∑_{k=1}^{n} 1 = n
+
+Substituting these back into the equation for S:
+
+S = 2 [n(n + 1)/2] - n
+
+The 2 and the denominator 2 cancel out:
+
+S = n(n + 1) - n
+
+Expanding that:
+
+S = n² + n - n
+
+Simplifying:
+
+S = n²
+
+So, algebraically, the sum of the first n odd numbers is indeed n squared. That makes sense now.
+
+Wait, let me double-check with another example. Let’s take n = 4.
+
+First four odd numbers: 1, 3, 5, 7.
+
+Sum: 1 + 3 + 5 + 7 = 16
+
+Which is 4². Perfect.
+
+Hmm, another way to think about this is using the concept of arithmetic series. The odd numbers form an arithmetic sequence with the first term a = 1 and common difference d = 2.
+
+The sum of an arithmetic series is given by:
+
+S = n/2 [2a + (n - 1)d]
+
+Plugging in the values:
+
+S = n/2 [2(1) + (n - 1)(2)]
+S = n/2 [2 + 2n - 2]
+S = n/2 [2n]
+S = n²
+
+Yup, that's the same result. So this confirms that using the arithmetic series formula also leads to the sum being n squared.
+
+I think I have a solid understanding now. The key steps were recognizing the expression for the k-th odd number, expressing the sum as a summation, splitting it into two separate sums, substituting the known formulas for the sum of the first n natural numbers and the sum of 1's, simplifying the expression, and concluding that it equals n squared.
+
+So, summarizing my thought process:
+
+1. I identified the k-th odd number as 2k - 1.
+2. I expressed the sum of the first n odd numbers as a summation from k=1 to n of (2k - 1).
+3. I split the summation into two parts: the sum of 2k and the sum of -1.
+4. I used the formula for the sum of the first n natural numbers.
+5. I substituted and simplified the expression step by step to reach the conclusion that the sum equals n squared.
+
+This systematic approach helped me arrive at the desired result. I feel confident that this proof is correct now.
+</think>
+
+The sum of the first \( n \) odd natural numbers is equal to \( n^2 \).
+
+**Proof:**
+
+The first \( n \) odd natural numbers can be written as \( 1, 3, 5, \ldots, (2n-1) \). To find their sum, we denote the sum as \( S \):
+
+\[
+S = \sum_{k=1}^{n} (2k - 1)
+\]
+
+This sum can be broken down into two separate sums:
+
+\[
+S = \sum_{k=1}^{n} 2k - \sum_{k=1}^{n} 1
+\]
+
+Simplifying each term:
+
+\[
+S = 2\sum_{k=1}^{n} k - \sum_{k=1}^{n} 1
+\]
+
+We know that:
+
+\[
+\sum_{k=1}^{n} k = \frac{n(n + 1)}{2}
+\]
+\[
+\sum_{k=1}^{n} 1 = n
+\]
+
+Substituting these back into the equation for \( S \):
+
+\[
+S = 2\left(\frac{n(n + 1)}{2}\right) - n
+\]
+
+Simplifying further:
+
+\[
+S = n(n + 1) - n
+\]
+\[
+S = n^2 + n - n
+\]
+\[
+S = n^2
+\]
+
+Thus, the sum of the first \( n \) odd natural numbers is \( n^2 \).
+
+\[
+\boxed{n^2}
+\]<｜end▁of▁sentence｜>

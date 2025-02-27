@@ -1,0 +1,26 @@
+<｜begin▁of▁sentence｜>
+</think>
+
+Sure! Let's prove that the sum of the first \( n \) odd natural numbers is equal to \( n^2 \).
+
+**Proof:**
+
+First, let's understand what an odd natural number is. Odd numbers are numbers that cannot be divided evenly by 2. They are sequences like: \(1, 3, 5, 7, \ldots\).
+
+The **k**th odd natural number is given by:
+\[
+2k - 1
+\]
+where \(k = 1, 2, 3, \ldots\)
+
+Now, let's consider the sum of the first \( n \) odd natural numbers:
+\[
+S = 1 + 3 + 5 + \ldots + (2n - 1)
+\]
+
+We can express \( S \) as:
+\[
+S = \sum_{k=1}^{n} (2k - 1)
+\]
+
+Let's

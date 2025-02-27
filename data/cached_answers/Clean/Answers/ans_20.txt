@@ -1,0 +1,115 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, let me try to figure this out. So the problem is to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, I remember that odd numbers are numbers like 1, 3, 5, 7, and so on. The first few odd numbers are 1, 3, 5, 7, etc., right?
+
+Wait, let me list out the first few odd numbers and their sums to see if I can spot a pattern. Maybe that will help me understand why the sum is n squared.
+
+Let's do it step by step:
+
+1st odd number: 1
+Sum of first 1 odd number: 1
+
+2nd odd number: 3
+Sum of first 2 odd numbers: 1 + 3 = 4
+
+3rd odd number: 5
+Sum of first 3 odd numbers: 4 + 5 = 9
+
+4th odd number: 7
+Sum of first 4 odd numbers: 9 + 7 = 16
+
+5th odd number: 9
+Sum of first 5 odd numbers: 16 + 9 = 25
+
+Hmm, I see! The sums are 1, 4, 9, 16, 25... These are perfect squares. 1 is 1 squared, 4 is 2 squared, 9 is 3 squared, and so on. So, the sum of the first n odd numbers is n squared. That seems to check out.
+
+But wait, let's not stop here. We need to actually prove this, not just observe it. How do we prove it generally for any n?
+
+Maybe I can look for a formula that relates the sum of the first n odd numbers. I recall that the odd numbers form an arithmetic sequence where the common difference is 2. In an arithmetic sequence, the sum of the first n terms is given by the formula:
+
+Sum = (number of terms)/2 × (first term + last term)
+
+So, applying this to the odd numbers, the first term is 1, the common difference is 2, so the nth term can be written as:
+
+a_n = a_1 + (n - 1)d
+a_n = 1 + (n - 1)×2
+a_n = 1 + 2n - 2
+a_n = 2n - 1
+
+So, the last term in the first n odd numbers is (2n - 1).
+
+Plugging these into the sum formula:
+
+Sum = n/2 × (1 + (2n - 1))
+Simplify inside the parentheses:
+1 + 2n - 1 = 2n
+
+So, Sum = n/2 × 2n
+Simplify:
+n/2 × 2n = n × n = n squared.
+
+So that proves it! The sum of the first n odd natural numbers is indeed n squared.
+
+But, to make sure, let me test this formula with a few more numbers. Let's say n = 6.
+
+6th odd number: 11
+Sum of first 6 odd numbers: 25 + 11 = 36
+
+Which is 6 squared, so that works.
+
+Another one: n = 7
+
+7th odd number: 13
+Sum of first 7 odd numbers: 36 + 13 = 49
+
+Which is 7 squared. Perfect!
+
+I think that solidifies the proof for me. The key was to recognize that the odd numbers form an arithmetic sequence, apply the sum formula for an arithmetic sequence, and simplify to get the result n squared. It’s a neat little mathematical trick!
+</think>
+
+Now, let's provide a clear step-by-step proof of the statement.
+
+**Proof:**
+
+The sum of the first n odd natural numbers is equal to n squared. 
+
+1. **Identify the sequence:**
+   The first n odd natural numbers form an arithmetic sequence with:
+   - First term (a₁) = 1
+   - Common difference (d) = 2
+
+2. **Find the nth term of the sequence:**
+   The nth term (aₙ) of an arithmetic sequence is given by:
+   \[
+   a_n = a_1 + (n - 1)d
+   \]
+   Substituting the known values:
+   \[
+   a_n = 1 + (n - 1) \times 2 = 1 + 2n - 2 = 2n - 1
+   \]
+
+3. **Calculate the sum of the first n terms:**
+   The sum (Sₙ) of the first n terms of an arithmetic sequence is:
+   \[
+   S_n = \frac{n}{2} \times (a_1 + a_n)
+   \]
+   Substituting the known values:
+   \[
+   S_n = \frac{n}{2} \times (1 + (2n - 1)) = \frac{n}{2} \times 2n = n^2
+   \]
+
+**Conclusion:**
+The sum of the first n odd natural numbers is indeed equal to n squared.
+
+**Example Verification:**
+
+- For n = 3:
+  - First 3 odd numbers: 1, 3, 5
+  - Sum = 1 + 3 + 5 = 9 = 3²
+
+- For n = 5:
+  - First 5 odd numbers: 1, 3, 5, 7, 9
+  - Sum = 1 + 3 + 5 + 7 + 9 = 25 = 5²
+
+These examples confirm the formula's accuracy.<｜end▁of▁sentence｜>

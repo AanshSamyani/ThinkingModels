@@ -1,0 +1,30 @@
+<｜begin▁of▁sentence｜>A recipe calls for 5 cups of flour to make 30 cookies. How many cups of flour are needed to make 90 cookies?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+First, I need to determine the number of cups of flour required per cookie. Since 5 cups of flour make 30 cookies, I can divide the total amount of flour by the number of cookies to find the flour per cookie.
+
+Next, once I have the amount of flour needed for one cookie, I can calculate the total amount of flour required for 90 cookies by multiplying the flour per cookie by 90. This will give me the total cups of flour needed for the desired number of cookies.
+</think>
+
+To determine how many cups of flour are needed to make 90 cookies based on the original recipe, follow these steps:
+
+1. **Understand the Given Information:**
+   
+   - **Total flour needed:** 5 cups  
+   - **Number of cookies:** 30
+
+2. **Find the Amount of Flour per Cookie:**
+   
+   \[
+   \text{Flour per cookie} = \frac{\text{Total flour}}{\text{Number of cookies}} = \frac{5\ \text{cups}}{30\ \text{cookies}} = \frac{1}{6}\ \text{cup per cookie}
+   \]
+
+3. **Calculate the Total Flour Needed for 90 Cookies:**
+   
+   \[
+   \text{Total flour} = \text{Flour per cookie} \times \text{Number of cookies} = \frac{1}{6}\ \text{cup} \times 90\ \text{cookies} = 15\ \text{cups}
+   \]
+
+4. **Final Answer:**
+   
+   \[
+   \boxed{15\ \text{cups}}
+   \]<｜end▁of▁sentence｜>

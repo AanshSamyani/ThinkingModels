@@ -1,0 +1,88 @@
+<｜begin▁of▁sentence｜>A rectangle has a length that is 5 times its width. If the area is 125 square cm, what are the dimensions?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Alright, so I have this problem here: A rectangle has a length that's 5 times its width. The area is 125 square cm. I need to find the dimensions, which means I have to figure out the length and the width. Hmm, okay, let's break this down step by step.
+
+First off, I know that the area of a rectangle is calculated by multiplying its length by its width. The formula is:
+
+Area = Length × Width
+
+In this problem, they've given me that the length is 5 times the width. That means if I let the width be a certain value, the length will naturally be 5 times that. Let me assign variables to these to make it easier.
+
+Let me call the width "w". Then, the length, which is 5 times the width, would be 5w. So now, my variables are w for the width and 5w for the length.
+
+Now, plugging these into the area formula, I can write:
+
+Area = (5w) × w
+
+Which simplifies to:
+
+Area = 5w²
+
+They've also told me that the area is 125 square cm. So, I can set up the equation:
+
+5w² = 125
+
+Now, my goal is to solve for w, which is the width. To do that, I can divide both sides of the equation by 5:
+
+w² = 125 / 5
+
+Calculating that gives me:
+
+w² = 25
+
+Alright, so if w squared is 25, then w must be the square root of 25. Remembering my math from earlier, the square root of 25 is 5. So,
+
+w = √25
+w = 5
+
+Okay, so the width is 5 cm. Now, since the length is 5 times the width, I can find the length by multiplying 5 by the width, which is 5 cm.
+
+Length = 5 × w
+Length = 5 × 5
+Length = 25
+
+So, the length is 25 cm, and the width is 5 cm. Let me double-check to make sure I did that right.
+
+Calculating the area with these dimensions:
+
+Area = Length × Width = 25 cm × 5 cm = 125 cm²
+
+Yes, that matches the given area of 125 square cm. So, the dimensions are correct. The width is 5 cm, and the length is 25 cm.
+
+Just to recap the steps: I assigned variables based on the given relationship (length is 5 times the width), formed the area equation, solved for the width, then used that to find the length. Checking the answer ensured that I didn't make any mistakes.
+
+Wait, just a thought: Sometimes, in problems, if I set up variables and get a positive number, do I need to consider negative roots? But in the context of width, a negative width doesn't make sense because width can't be negative. So, I only take the positive square root, which is 5 cm, so that's fine.
+
+Also, checking that I substituted correctly in the equation: 5w² = 125, which becomes w² = 25, so w is indeed 5. Everything seems consistent here.
+
+I think that's all I need to do. I found both the width and the length by using the given ratio and the area, and everything checks out. So, I can confidently say that the rectangle has a width of 5 cm and a length of 25 cm.
+
+**Final Answer**
+The dimensions of the rectangle are \boxed{25} cm in length and \boxed{5} cm in width.
+</think>
+
+Given a rectangle where the length is 5 times the width and the area is 125 square cm, we need to find the dimensions.
+
+1. Let the width be \( w \). Then, the length is \( 5w \).
+2. The area of the rectangle is given by the formula:
+   \[
+   \text{Area} = \text{Length} \times \text{Width}
+   \]
+3. Substituting the known values:
+   \[
+   125 = 5w \times w
+   \]
+4. Simplifying the equation:
+   \[
+   125 = 5w^2
+   \]
+5. Dividing both sides by 5:
+   \[
+   w^2 = 25
+   \]
+6. Taking the square root of both sides:
+   \[
+   w = \sqrt{25} = 5
+   \]
+7. The width is 5 cm. The length is \( 5 \times 5 = 25 \) cm.
+
+Therefore, the dimensions of the rectangle are \boxed{25} cm in length and \boxed{5} cm in width.<｜end▁of▁sentence｜>

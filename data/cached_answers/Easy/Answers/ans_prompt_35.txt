@@ -1,0 +1,7 @@
+<｜begin▁of▁sentence｜>What is \( \frac{4}{7} - \frac{1}{7} \)?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+您问的是 \( \frac{4}{7} - \frac{1}{7} \) 对吗？是的，这是一个简单的分数减法运算。因为分母相同，可以直接将分子相减：4-1=3，所以结果是 \( \frac{3}{7} \)。
+
+如果需要更详细的解释，请告诉我！<｜end▁of▁sentence｜>

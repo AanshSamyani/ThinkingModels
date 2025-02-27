@@ -1,0 +1,39 @@
+<｜begin▁of▁sentence｜>A rectangle has a length that is 3 times its width. If the perimeter is 48 cm, what are the dimensions?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+It seems you've pasted a complete problem and its context. Let me help you with it step by step.
+
+**Problem Statement:**
+"A rectangle has a length that is 3 times its width. If the perimeter is 48 cm, what are the dimensions?"
+
+**Solution:**
+
+Let's denote the width of the rectangle as \( w \) cm.
+
+Given that the length (\( l \)) is 3 times the width:
+\[ l = 3w \]
+
+The formula for the perimeter (\( P \)) of a rectangle is:
+\[ P = 2l + 2w \]
+
+We are given that the perimeter is 48 cm:
+\[ 48 = 2l + 2w \]
+
+Substitute \( l = 3w \) into the equation:
+\[ 48 = 2(3w) + 2w \]
+\[ 48 = 6w + 2w \]
+\[ 48 = 8w \]
+
+Now, solve for \( w \):
+\[ w = \frac{48}{8} \]
+\[ w = 6 \text{ cm} \]
+
+Now, find the length using \( l = 3w \):
+\[ l = 3 \times 6 \]
+\[ l = 18 \text{ cm} \]
+
+**Conclusion:**
+The dimensions of the rectangle are:
+- Width: \( 6 \text{ cm} \)
+- Length: \( 18 \text{ cm} \)<｜end▁of▁sentence｜>

@@ -1,0 +1,30 @@
+<｜begin▁of▁sentence｜>Solve for \( x \): \( 6(x - 2) = 4x + 12 \).<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+To solve the equation \( 6(x - 2) = 4x + 12 \), follow these steps:
+
+1. **Distribute the 6 on the left side:**
+   \[
+   6(x - 2) = 6x - 12
+   \]
+   So, the equation becomes:
+   \[
+   6x - 12 = 4x + 12
+   \]
+
+2. **Move all \( x \) terms to one side and constant terms to the other side:**
+   \[
+   6x - 4x = 12 + 12
+   \]
+   Simplifying both sides:
+   \[
+   2x = 24
+   \]
+
+3. **Solve for \( x \):**
+   \[
+   x = \frac{24}{2} = 12
+   \]
+
+**Final Answer:** \( x = 12 \)<｜end▁of▁sentence｜>

@@ -1,0 +1,84 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Alright, let's see. I have to prove that the sum of the first n odd natural numbers equals n squared. Hmm, okay, so first, what are the first n odd natural numbers? Well, starting from 1, the sequence would be 1, 3, 5, 7, and so on, up to the nth term. So, the nth term is like 2n minus 1. Yeah, I think that's right. For example, the first term when n=1 is 1, the second when n=2 is 3, that works.
+
+Now, to find the sum of these numbers. So, S = 1 + 3 + 5 + ... + (2n - 1). I need to find a formula for this sum. Wait, I recall that there's a formula for the sum of the first n odd numbers being n squared. But why is that? How can I derive it?
+
+Maybe I can try using induction. I think mathematical induction is a good method for proving statements like this. Let's see. First, let's check the base case, when n=1. The sum is just 1, and 1 squared is 1, so it works. Good.
+
+Now, assume that for some k, the sum of the first k odd numbers is k squared. So, 1 + 3 + 5 + ... + (2k -1) = k². That's the induction hypothesis. Now, I need to show that the sum of the first k+1 odd numbers is (k+1) squared.
+
+So, let's add the next odd number, which is 2(k+1) -1 = 2k +2 -1= 2k +1. So, the sum would be k² + (2k +1). Now, let's see if that equals (k+1)².
+
+Calculating (k+1)² = k² + 2k +1. So, adding 2k +1 to k² gives k² +2k +1, which is the same as (k+1)². So, the induction step holds.
+
+Therefore, by mathematical induction, the sum of the first n odd natural numbers is equal to n squared.
+
+Wait, but is there another way to see this without induction? Maybe by visualizing or rearranging the numbers.
+
+Let's arrange the numbers in a way that makes the pattern clear. If I write the first few odd numbers:
+
+1, 3, 5, 7, 9, 11, ...
+
+Now, let's add them two at a time:
+
+1 + 3 =4,
+5 +7=12,
+9 +11=20,...
+
+Hmm, not immediately helpful. Maybe adding them in a different way.
+
+Let me consider the sum S =1 + 3 +5 +7 +...+(2n-1). If I pair the first and last term: (1 + (2n -1)) = 2n, (3 + (2n -3))=2n, and so on.
+
+Since there are n terms, pairing them gives n/2 pairs each summing to 2n. So, the total sum is (n/2)*2n =n².
+
+Oh, that's another way to see it! So, pairing terms gives a straightforward way to compute the sum. That makes sense.
+
+Therefore, I've proved that the sum of the first n odd natural numbers is equal to n squared using induction and by pairing terms.
+</think>
+
+The sum of the first \( n \) odd natural numbers can be calculated using the formula \( S = n^2 \). Here's a step-by-step explanation:
+
+1. **Identify the Sequence**: The sequence of the first \( n \) odd natural numbers is \( 1, 3, 5, 7, \ldots, (2n-1) \).
+
+2. **Express the Sum**: Let \( S \) be the sum of the first \( n \) terms of this sequence.
+   \[
+   S = 1 + 3 + 5 + 7 + \ldots + (2n - 1)
+   \]
+
+3. **Use Mathematical Induction (Optional Verification)**:
+   - **Base Case**: For \( n = 1 \),
+     \[
+     S = 1 = 1^2
+     \]
+     The base case holds.
+   - **Inductive Step**: Assume the statement holds for some integer \( k \), i.e.,
+     \[
+     1 + 3 + 5 + \ldots + (2k - 1) = k^2
+     \]
+     Then, for \( n = k + 1 \),
+     \[
+     S = 1 + 3 + 5 + \ldots + (2k - 1) + (2(k + 1) - 1)
+     \]
+     Using the inductive hypothesis:
+     \[
+     S = k^2 + (2k + 1) = k^2 + 2k + 1 = (k + 1)^2
+     \]
+     Thus, the statement holds for \( n = k + 1 \).
+
+4. **Alternative Approach – Pairing Terms**:
+   - Pair the terms as follows:
+     \[
+     (1 + (2n - 1)) + (3 + (2n - 3)) + \ldots
+     \]
+   - Each pair sums to \( 2n \):
+     \[
+     2n + 2n + \ldots = n \times 2n = 2n^2
+     \]
+     However, since each pair represents two terms, divide the total sum by 2:
+     \[
+     S = \frac{2n^2}{2} = n^2
+     \]
+
+Therefore, the sum of the first \( n \) odd natural numbers is indeed \( n^2 \).<｜end▁of▁sentence｜>

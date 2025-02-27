@@ -1,0 +1,43 @@
+<｜begin▁of▁sentence｜>Solve for \( x \): \( 4(x - 5) = 2x + 10 \).<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+To solve the equation \(4(x - 5) = 2x + 10\), I begin by distributing the 4 on the left side, which gives me \(4x - 20 = 2x + 10\).
+
+Next, I aim to collect like terms. I'll subtract \(2x\) from both sides to eliminate the \(2x\) term on the right, resulting in \(2x - 20 = 10\).
+
+Then, I add 20 to both sides to isolate the term with \(x\), leading to \(2x = 30\).
+
+Finally, I divide both sides by 2 to solve for \(x\), which gives \(x = 15\).
+</think>
+
+**Solution:**
+
+To solve the equation \(4(x - 5) = 2x + 10\), follow these steps:
+
+1. **Distribute** the 4 on the left side:
+   
+   \[
+   4(x - 5) = 2x + 10 \implies 4x - 20 = 2x + 10
+   \]
+
+2. **Bring like terms to one side** by subtracting \(2x\) from both sides:
+
+   \[
+   4x - 20 - 2x = 2x + 10 - 2x \implies 2x - 20 = 10
+   \]
+
+3. **Isolate the variable** \(x\) by adding 20 to both sides:
+
+   \[
+   2x - 20 + 20 = 10 + 20 \implies 2x = 30
+   \]
+
+4. **Solve for \(x\)** by dividing both sides by 2:
+
+   \[
+   \frac{2x}{2} = \frac{30}{2} \implies x = 15
+   \]
+
+**Final Answer:**
+
+\[
+\boxed{15}
+\]<｜end▁of▁sentence｜>

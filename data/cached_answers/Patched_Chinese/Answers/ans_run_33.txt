@@ -1,0 +1,4 @@
+<｜begin▁of▁sentence｜>
+Alright, let me try to figure this out. So, I need to prove that the sum of the first n odd natural numbers equals n squared. Hmm, okay. So, first, let me list out what these numbers are. The first odd natural number is 1, right? Then, the next one is 3, followed by 5, 7, and so on. So, the nth term would be... Let me see. Wait, I think there's a formula for the nth odd number. Yeah, I remember now. The nth odd number is 2n minus 1. So, the sequence goes: 1 = 2(1) -1, 3 = 2(2)-1, 5=2(3)-1, etc. Cool, so each term can be written as 2k-1 where k starts at 1.
+
+Now, I need to find the sum of these numbers. So, Sum =

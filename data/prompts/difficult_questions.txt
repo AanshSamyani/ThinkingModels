@@ -1,0 +1,50 @@
+1. A train travels 240 miles in 4 hours. How long will it take to travel 360 miles at the same speed?  
+2. A pizza is divided into 12 slices. If 4 people share it equally, how many slices does each person get?  
+3. A rectangle has a length that is 3 times its width. If the perimeter is 48 cm, what are the dimensions?  
+4. A shop sells bananas at $0.50 each and apples at $0.75 each. If you buy 6 bananas and 4 apples, how much will you pay?  
+5. A triangle has sides of lengths 7 cm, 24 cm, and 25 cm. Is it a right triangle? Explain.  
+6. A car’s fuel efficiency is 30 miles per gallon. If the gas tank holds 15 gallons, how far can the car travel on a full tank?  
+7. A number is increased by 25%, and the result is 50. What was the original number?  
+8. A bag contains 6 red marbles, 4 blue marbles, and 5 green marbles. What is the probability of drawing a red marble?  
+9. Solve for \( x \): \( 2(x - 3) = 4x + 6 \).  
+10. A recipe calls for 3 cups of flour to make 18 cookies. How many cups of flour are needed to make 54 cookies?  
+11. A train travels 180 miles in 3 hours. How long will it take to travel 300 miles at the same speed?  
+12. A pizza is divided into 10 slices. If 5 people share it equally, how many slices does each person get?  
+13. A rectangle has a length that is twice its width. If the area is 50 square cm, what are the dimensions?  
+14. A shop sells oranges at $0.60 each and grapes at $1.20 per pound. If you buy 5 oranges and 2 pounds of grapes, how much will you pay?  
+15. A triangle has sides of lengths 8 cm, 15 cm, and 17 cm. Is it a right triangle? Explain.  
+16. A car’s fuel efficiency is 20 miles per gallon. If the gas tank holds 18 gallons, how far can the car travel on a full tank?  
+17. A number is decreased by 15%, and the result is 85. What was the original number?  
+18. A bag contains 8 red marbles, 6 blue marbles, and 4 green marbles. What is the probability of drawing a green marble?  
+19. Solve for \( x \): \( 5(x + 2) = 3x + 20 \).  
+20. A recipe calls for 4 cups of flour to make 24 cookies. How many cups of flour are needed to make 60 cookies?  
+21. A train travels 360 miles in 6 hours. How long will it take to travel 480 miles at the same speed?  
+22. A pizza is divided into 16 slices. If 8 people share it equally, how many slices does each person get?  
+23. A rectangle has a length that is 4 times its width. If the perimeter is 60 cm, what are the dimensions?  
+24. A shop sells apples at $0.80 each and pears at $0.50 each. If you buy 10 apples and 6 pears, how much will you pay?  
+25. A triangle has sides of lengths 9 cm, 12 cm, and 15 cm. Is it a right triangle? Explain.  
+26. A car’s fuel efficiency is 25 miles per gallon. If the gas tank holds 20 gallons, how far can the car travel on a full tank?  
+27. A number is increased by 30%, and the result is 65. What was the original number?  
+28. A bag contains 10 red marbles, 8 blue marbles, and 6 green marbles. What is the probability of drawing a blue marble?  
+29. Solve for \( x \): \( 4(x - 5) = 2x + 10 \).  
+30. A recipe calls for 5 cups of flour to make 30 cookies. How many cups of flour are needed to make 90 cookies?  
+31. A train travels 420 miles in 7 hours. How long will it take to travel 600 miles at the same speed?  
+32. A pizza is divided into 20 slices. If 10 people share it equally, how many slices does each person get?  
+33. A rectangle has a length that is 5 times its width. If the area is 125 square cm, what are the dimensions?  
+34. A shop sells mangoes at $1.50 each and peaches at $0.75 each. If you buy 8 mangoes and 12 peaches, how much will you pay?  
+35. A triangle has sides of lengths 10 cm, 24 cm, and 26 cm. Is it a right triangle? Explain.  
+36. A car’s fuel efficiency is 35 miles per gallon. If the gas tank holds 14 gallons, how far can the car travel on a full tank?  
+37. A number is decreased by 20%, and the result is 80. What was the original number?  
+38. A bag contains 12 red marbles, 10 blue marbles, and 8 green marbles. What is the probability of drawing a red marble?  
+39. Solve for \( x \): \( 3(x + 4) = 2x + 18 \).  
+40. A recipe calls for 6 cups of flour to make 36 cookies. How many cups of flour are needed to make 72 cookies?  
+41. A train travels 300 miles in 5 hours. How long will it take to travel 450 miles at the same speed?  
+42. A pizza is divided into 24 slices. If 12 people share it equally, how many slices does each person get?  
+43. A rectangle has a length that is 6 times its width. If the perimeter is 84 cm, what are the dimensions?  
+44. A shop sells strawberries at $2.00 per pound and blueberries at $1.50 per pound. If you buy 3 pounds of strawberries and 4 pounds of blueberries, how much will you pay?  
+45. A triangle has sides of lengths 11 cm, 60 cm, and 61 cm. Is it a right triangle? Explain.  
+46. A car’s fuel efficiency is 40 miles per gallon. If the gas tank holds 12 gallons, how far can the car travel on a full tank?  
+47. A number is increased by 40%, and the result is 70. What was the original number?  
+48. A bag contains 15 red marbles, 12 blue marbles, and 10 green marbles. What is the probability of drawing a green marble?  
+49. Solve for \( x \): \( 6(x - 2) = 4x + 12 \).  
+50. A recipe calls for 8 cups of flour to make 48 cookies. How many cups of flour are needed to make 96 cookies?  

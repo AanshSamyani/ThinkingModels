@@ -1,0 +1,66 @@
+<｜begin▁of▁sentence｜>A number is increased by 25%, and the result is 50. What was the original number?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I need to figure out the original number that was increased by 25% to get 50. Hmm, let me think about how percentage increases work. When a number increases by a certain percentage, you're essentially adding that percentage of the original number to itself. 
+
+So, if I let the original number be something like x, then a 25% increase on x would mean I'm taking 25% of x and adding it to x. That can be written as x plus 25% of x. But 25% is the same as 0.25 in decimal form, right? So 25% of x is 0.25 times x. 
+
+Putting that together, the equation becomes x + 0.25x. I can factor out the x to make it 1x + 0.25x, which adds up to 1.25x. So, 1.25 times the original number x equals 50. 
+
+Wait, let me write that down properly. If the original number is x, then the increased amount is 1.25x. And that equals 50. So, the equation is:
+
+1.25x = 50
+
+Now, to find the original number x, I need to solve for it. That means I have to get x by itself on one side of the equation. Since x is multiplied by 1.25, I should divide both sides of the equation by 1.25 to isolate x. 
+
+So, dividing both sides by 1.25 gives me:
+
+x = 50 / 1.25
+
+Alright, let me do that division. 50 divided by 1.25. Hmm, I can think of 1.25 as a fraction. 1.25 is the same as 5/4, because 5 divided by 4 is 1.25. So, dividing by 5/4 is the same as multiplying by 4/5.
+
+So, 50 multiplied by 4/5. Let me calculate that. 50 times 4 is 200, and then 200 divided by 5 is 40. So, x equals 40.
+
+Let me check that to make sure it's right. If I take 40 and increase it by 25%, that should give me 50. 
+
+25% of 40 is (25/100)*40 = 10. So, adding 10 to 40 gives me 50, which matches the result. So, yes, that makes sense. 
+
+I think I did everything right here. I set up the equation correctly, solved for x by dividing, and then checked my work to ensure it's correct. So, the original number must have been 40.
+</think>
+
+To determine the original number that, when increased by 25%, results in 50, follow these steps:
+
+1. **Let the original number be x.**
+
+2. **Set up the equation based on the percentage increase:**
+   
+   25% of x added to x equals 50.
+   
+   This can be written as:
+   
+   \[
+   x + 0.25x = 50
+   \]
+
+3. **Combine like terms:**
+   
+   \[
+   1.25x = 50
+   \]
+
+4. **Solve for x by dividing both sides of the equation by 1.25:**
+   
+   \[
+   x = \frac{50}{1.25}
+   \]
+
+5. **Perform the division:**
+   
+   \[
+   x = 40
+   \]
+
+**Verification:**
+
+- Calculate 25% of 40: \( 0.25 \times 40 = 10 \)
+- Add to the original number: \( 40 + 10 = 50 \)
+
+This confirms that the original number was **40**.<｜end▁of▁sentence｜>

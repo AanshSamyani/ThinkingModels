@@ -1,0 +1,51 @@
+<｜begin▁of▁sentence｜>A bag contains 6 red marbles, 4 blue marbles, and 5 green marbles. What is the probability of drawing a red marble?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+I need to calculate the probability of drawing a red marble from the bag. 
+
+First, I identify the total number of marbles in the bag. There are 6 red marbles, 4 blue marbles, and 5 green marbles. So, the total number of marbles is 6 + 4 + 5, which equals 15 marbles in total.
+
+Next, I focus on the number of red marbles, which is given as 6. 
+
+To find the probability of drawing a red marble, I use the formula: probability = (number of successful outcomes) / (total number of possible outcomes). In this case, the successful outcome is drawing a red marble, and there are 6 such outcomes.
+
+So, the probability of drawing a red marble is 6 divided by 15, which simplifies to 2/5 or 0.4. 
+
+Therefore, the probability of drawing a red marble from the bag is 2/5.
+</think>
+
+To determine the probability of drawing a red marble from the bag, follow these steps:
+
+### **Step 1: Identify the Total Number of Marbles**
+
+The bag contains:
+- **6 red marbles**
+- **4 blue marbles**
+- **5 green marbles**
+
+**Total marbles = 6 (red) + 4 (blue) + 5 (green) = 15 marbles**
+
+### **Step 2: Determine the Number of Red Marbles**
+
+From the given data, there are:
+- **6 red marbles**
+
+### **Step 3: Calculate the Probability**
+
+The probability \( P \) of drawing a red marble is given by the ratio of the number of red marbles to the total number of marbles.
+
+\[
+P(\text{red}) = \frac{\text{Number of red marbles}}{\text{Total number of marbles}} = \frac{6}{15}
+\]
+
+### **Step 4: Simplify the Fraction**
+
+\[
+\frac{6}{15} = \frac{2}{5}
+\]
+
+### **Final Answer**
+
+The probability of drawing a red marble is:
+
+\[
+\boxed{\frac{2}{5}}
+\]<｜end▁of▁sentence｜>

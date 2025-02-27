@@ -1,0 +1,32 @@
+<｜begin▁of▁sentence｜>What is \( 3^3 \)?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+**Solution:**
+
+We need to calculate \( 3^3 \).
+
+1. **Understand the exponentiation:**
+   \[
+   3^3 = 3 \times 3 \times 3
+   \]
+
+2. **Multiply the base by itself:**
+   \[
+   3 \times 3 = 9
+   \]
+
+3. **Continue multiplying by the base:**
+   \[
+   9 \times 3 = 27
+   \]
+
+4. **Final result:**
+   \[
+   3^3 = 27
+   \]
+
+**Answer:**
+\[
+\boxed{27}
+\]<｜end▁of▁sentence｜>

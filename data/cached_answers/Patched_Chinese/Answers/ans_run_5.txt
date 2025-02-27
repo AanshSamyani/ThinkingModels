@@ -1,0 +1,8 @@
+<｜begin▁of▁sentence｜>
+Okay, so I need to prove that the sum of the first n odd natural numbers equals n squared. Hmm, let me think about how I remember these sums. I recall something about odd numbers forming sequences, maybe adding them up gives a nice平方公式。 
+
+First, let's clarify what odd natural numbers are. Odd numbers are numbers like 1,3,5,7,...它们的首项是1，公差是2。So, the nth odd number can be expressed as... Well, maybe I'll try deriving it. 
+
+If I take an odd number, say, the nth odd number, it's basically 2n-1. Wait, let's verify: For n=1, it's 2(1)-1=1. For n=2, it's 3. Okay, yeah, that works. So, the nth odd number is 2n-1.
+
+Now, I need to find the sum of the first n

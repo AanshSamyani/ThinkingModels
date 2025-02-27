@@ -1,0 +1,91 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I have this problem where I need to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, let's see. First, what exactly are odd natural numbers? I think they are numbers like 1, 3, 5, 7, and so on, right? Each of these is an odd number and a natural number because they're positive integers.
+
+So, the first n odd natural numbers would be the sequence 1, 3, 5, 7, ..., up to the nth term. For example, if n is 4, the first four odd numbers are 1, 3, 5, 7. Their sum should be 1 + 3 + 5 + 7, which is 16. Now, 16 is equal to 4 squared, so that works. Maybe this pattern holds for other numbers too. Let me check for n=5. The first five odd numbers are 1, 3, 5, 7, 9, and their sum is 1 + 3 + 5 + 7 + 9 = 25, which is 5 squared. Hmm, seems promising.
+
+But how do I prove this for any n? I mean, I can't just test it for specific numbers because it's supposed to work for all natural numbers. So, maybe I should use mathematical induction. I remember that induction involves two steps: the base case and the inductive step.
+
+Let's start with the base case. If n=1, the first odd natural number is 1. So, the sum is 1, and 1 squared is also 1. That checks out. So the base case is satisfied.
+
+Now, the inductive step. I need to assume that the statement is true for some arbitrary natural number k. That is, assume that the sum of the first k odd natural numbers is k squared. So, sum = 1 + 3 + 5 + ... + (2k-1) = k^2.
+
+Wait, hold on, let me make sure I have the formula right. The k-th odd number is 2k-1. So, if I have the first k odd numbers, their sum should be 1 + 3 + 5 + ... + (2k-1) which equals k squared.
+
+Now, I need to show that the sum up to the (k+1)-th odd number is (k+1)^2. So, the sum would be the previous sum plus the (k+1)-th odd number, which is 2(k+1)-1 = 2k+1. So, if I add that to the sum up to k, which is k squared, I get k squared + (2k+1).
+
+Wait, let me calculate that: k^2 + 2k +1. Hmm, that is equal to (k + 1)^2. Yes! So, that works out. Therefore, if the statement holds for n=k, it also holds for n=k+1.
+
+So, by mathematical induction, the statement is true for all natural numbers n. That seems to make sense.
+
+But wait, is there another way to think about this? Maybe using algebra or another theorem? Let me see.
+
+I remember that the sum of an arithmetic series is given by (number of terms) multiplied by (first term plus last term) divided by 2. So, if I consider the first n odd numbers as an arithmetic sequence, then the first term a1 is 1, the common difference d is 2, and the nth term is an = 1 + (n-1)*2 = 2n-1.
+
+So, applying the arithmetic series formula, the sum S = n*(a1 + an)/2 = n*(1 + (2n-1))/2 = n*(2n)/2 = n^2. Ah, that's another way to prove it. Nice, that's a solid proof.
+
+Wait, let me make sure I didn't skip any steps. I defined a1 as 1, an as 2n-1, calculated the average as (1 + 2n-1)/2 = (2n)/2 = n, and then multiplied by n to get n squared. Yes, that makes sense. It aligns with the induction proof I did earlier.
+
+So, I think both methods confirm that the sum of the first n odd natural numbers is indeed n squared. That seems pretty straightforward. I guess induction was a bit more involved, but algebraically, the arithmetic series formula gives a clear path.
+
+Alternatively, maybe I can visualize it. If I arrange numbers in certain patterns, perhaps squares, that could also demonstrate this. Let me think. If I take a square of side length n, it has n squared units. How does that relate to the sum of odd numbers?
+
+If I construct a square by adding odd layers, like a onion, each layer being an odd number of squares, then the total number of squares would be the sum of the odd numbers. For example, a 2x2 square has 4 squares, which is 2 squared. A 3x3 square has 9 squares, which is 3 squared, and so on. So each time you increase the size by 1 in both dimensions, you're adding a new layer which is an odd number of squares. That provides another intuitive way to see why the sum equals n squared.
+
+Hmm, that's a neat visualization. It shows the connection between geometry and the sum of numbers. Maybe that's a good way to present the proof in class.
+
+But, stepping back, since induction and the arithmetic series formula both work, I'm confident that the proof is solid. Let me just recap:
+
+1. Base case: n=1. Sum is 1, which is equal to 1 squared.
+2. Inductive hypothesis: Assume sum up to k is k squared.
+3. Inductive step: Show that sum up to k+1 is (k+1) squared, using the inductive hypothesis and adding the next term (2k+1).
+4. Algebraic approach: Use the arithmetic series formula with first term 1, last term 2n-1, number of terms n, to get n squared.
+
+Either approach works and solidifies the proof. I think I'm satisfied with this. I don't see any flaws in the logic, and the alternative approaches reinforce the same conclusion. So, the sum of the first n odd natural numbers is indeed equal to n squared.
+</think>
+
+To prove that the sum of the first \( n \) odd natural numbers is equal to \( n^2 \), we can use mathematical induction and the arithmetic series formula.
+
+**Proof by Mathematical Induction:**
+
+1. **Base Case (\( n = 1 \)):**
+   - The first odd natural number is 1.
+   - Sum = 1
+   - \( 1^2 = 1 \)
+   - Thus, the statement holds for \( n = 1 \).
+
+2. **Inductive Hypothesis:**
+   - Assume that the statement is true for some arbitrary natural number \( k \). That is, the sum of the first \( k \) odd natural numbers is \( k^2 \).
+
+3. **Inductive Step (\( n = k + 1 \)):**
+   - The sum of the first \( k + 1 \) odd natural numbers is:
+     \[
+     k^2 + (2(k + 1) - 1) = k^2 + (2k + 1)
+     \]
+   - Simplify:
+     \[
+     k^2 + 2k + 1 = (k + 1)^2
+     \]
+   - Thus, if the statement holds for \( n = k \), it also holds for \( n = k + 1 \).
+
+By the principle of mathematical induction, the statement is true for all natural numbers \( n \).
+
+**Alternative Proof Using Arithmetic Series:**
+
+1. **Identify the First Term (\( a \)) and Common Difference (\( d \)):**
+   - First term (\( a \)) = 1
+   - Common difference (\( d \)) = 2
+
+2. **Find the \( n \)-th Term (\( a_n \)):**
+   - \( a_n = a + (n - 1)d = 1 + (n - 1) \cdot 2 = 2n - 1 \)
+
+3. **Sum of the First \( n \) Terms (\( S_n \)) using Arithmetic Series Formula:**
+   \[
+   S_n = \frac{n}{2} (a + a_n) = \frac{n}{2} (1 + (2n - 1)) = \frac{n}{2} (2n) = n^2
+   \]
+   - Therefore, the sum of the first \( n \) odd natural numbers is \( n^2 \).
+
+**Conclusion:**
+
+Both mathematical induction and the arithmetic series formula confirm that the sum of the first \( n \) odd natural numbers is equal to \( n^2 \).<｜end▁of▁sentence｜>

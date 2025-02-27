@@ -1,0 +1,42 @@
+<｜begin▁of▁sentence｜>A recipe calls for 6 cups of flour to make 36 cookies. How many cups of flour are needed to make 72 cookies?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+I need to determine how much flour is needed to make 72 cookies based on the given recipe. 
+
+First, I'll examine the original recipe to find the ratio of flour to cookies. 
+
+With 6 cups of flour making 36 cookies, there are 6/36 = 1/6 cups of flour per cookie. 
+
+Next, I'll calculate the amount of flour needed for 72 cookies using this ratio: 72 cookies * (1/6 cups of flour per cookie) = 12 cups of flour. 
+
+So, I conclude that 12 cups of flour are required to make 72 cookies.
+</think>
+
+Sure, let's solve the problem step by step.
+
+**Problem:**
+A recipe calls for 6 cups of flour to make 36 cookies. How many cups of flour are needed to make 72 cookies?
+
+**Solution:**
+
+1. **Understand the Given Information:**
+   - **Flour required:** 6 cups
+   - **Cookies made:** 36 cookies
+
+2. **Find the Amount of Flour per Cookie:**
+   - To determine how much flour is needed for one cookie, divide the total flour by the number of cookies.
+   
+   \[
+   \text{Flour per cookie} = \frac{6 \text{ cups}}{36 \text{ cookies}} = \frac{1}{6} \text{ cup per cookie}
+   \]
+
+3. **Calculate the Amount of Flour for 72 Cookies:**
+   - Now, multiply the amount of flour per cookie by the number of cookies needed.
+   
+   \[
+   \text{Flour for 72 cookies} = 72 \text{ cookies} \times \frac{1}{6} \text{ cup per cookie} = 12 \text{ cups}
+   \]
+
+**Final Answer:**
+
+\[
+\boxed{12 \text{ cups}}
+\]<｜end▁of▁sentence｜>

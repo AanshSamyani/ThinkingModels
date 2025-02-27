@@ -1,0 +1,42 @@
+<｜begin▁of▁sentence｜>A recipe calls for 3 cups of flour to make 18 cookies. How many cups of flour are needed to make 54 cookies?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+I need to find out how many cups of flour are needed for 54 cookies when 18 cookies require 3 cups of flour. This seems like a proportion problem because the amount of flour should increase proportionally with the number of cookies. To solve it, I'll set up a proportion where the cups of flour to the number of cookies are equal for both scenarios.
+</think>
+
+To determine how many cups of flour are needed for 54 cookies, we can use a proportion based on the given ratio of cups of flour to the number of cookies.
+
+**Given:**
+- 3 cups of flour make **18 cookies**.
+
+**Let \( x \)** be the number of cups of flour needed for **54 cookies**.
+
+**Proportion:**
+\[
+\frac{\text{Cups of flour}}{\text{Number of cookies}} = \frac{\text{Cups of flour}}{\text{Number of cookies}}
+\]
+\[
+\frac{3}{18} = \frac{x}{54}
+\]
+
+**Step 1:** Simplify the known proportion.
+
+\[
+\frac{3}{18} = \frac{1}{6}
+\]
+
+So, the equation becomes:
+
+\[
+\frac{1}{6} = \frac{x}{54}
+\]
+
+**Step 2:** Solve for \( x \).
+
+\[
+x = \frac{54}{6} = 9
+\]
+
+**Final Answer:**
+
+\[
+\boxed{9}
+\]<｜end▁of▁sentence｜>

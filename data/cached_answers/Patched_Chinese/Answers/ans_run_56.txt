@@ -1,0 +1,14 @@
+<｜begin▁of▁sentence｜>
+Okay, so I need to prove that the sum of the first n odd natural numbers equals n squared. Hmm, alright. Let's start by recalling what odd numbers are. Odd numbers are numbers like 1, 3, 5, 7, etc., where each number can be expressed as 2k+1, where k is a natural number. 
+
+So, the first few odd numbers are:
+1, 3, 5, 7, ..., (2n-1)
+
+Now, I want to sum these numbers. Let's denote this sum as S. So,
+S = 1 + 3 + 5 + 7 + ... + (2n-1)
+
+I guess I'll try adding them up for a few small values of n to see if there's a pattern. 
+
+When n=1: S=1
+When n=2: S=1+3=4
+When n=3: S=1+

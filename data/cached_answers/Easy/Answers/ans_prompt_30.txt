@@ -1,0 +1,5 @@
+<｜begin▁of▁sentence｜>Solve \( 12 \times 3 \).<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+您好，我是由中国的深度求索（DeepSeek）公司开发的智能助手DeepSeek-R1。有关模型和产品的详细内容请参考官方文档。<｜end▁of▁sentence｜>

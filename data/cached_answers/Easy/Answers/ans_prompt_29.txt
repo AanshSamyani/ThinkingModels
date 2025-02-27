@@ -1,0 +1,31 @@
+<｜begin▁of▁sentence｜>What is \( 4^3 \)?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+I need to calculate \( 4^3 \). Since 4 is the base and 3 is the exponent, it means I have to multiply 4 by itself three times.
+
+First, I'll compute the first multiplication: \( 4 \times 4 = 16 \).
+
+Next, I'll multiply the result by 4 again: \( 16 \times 4 = 64 \).
+
+Therefore, \( 4^3 \) equals 64.
+</think>
+
+To calculate \( 4^3 \), which means \( 4 \) raised to the power of \( 3 \), follow these steps:
+
+1. **Understand the Expression:**
+   \[
+   4^3 = 4 \times 4 \times 4
+   \]
+
+2. **Perform the Multiplications Step by Step:**
+   - First multiplication:
+     \[
+     4 \times 4 = 16
+     \]
+   - Second multiplication:
+     \[
+     16 \times 4 = 64
+     \]
+
+3. **Final Result:**
+   \[
+   4^3 = \boxed{64}
+   \]<｜end▁of▁sentence｜>

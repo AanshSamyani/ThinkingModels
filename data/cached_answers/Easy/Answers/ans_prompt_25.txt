@@ -1,0 +1,11 @@
+<｜begin▁of▁sentence｜>What is \( \frac{3}{5} + \frac{2}{5} \)?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+To calculate \( \frac{3}{5} + \frac{2}{5} \), follow these steps:
+
+1. **Add the numerators**: Since both fractions have the same denominator (5), add the numerators (3 + 2) to get 5.
+2. **Keep the denominator**: The denominator remains 5.
+3. **Simplify if possible**: \( \frac{5}{5} \) simplifies to 1.
+
+**Final Answer**: \( 1 \)<｜end▁of▁sentence｜>

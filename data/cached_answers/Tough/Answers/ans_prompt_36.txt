@@ -1,0 +1,45 @@
+<｜begin▁of▁sentence｜>A car’s fuel efficiency is 35 miles per gallon. If the gas tank holds 14 gallons, how far can the car travel on a full tank?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I have this problem here about a car's fuel efficiency and how far it can travel on a full tank. Let me see if I can figure this out step by step.
+
+First, the problem states that the car's fuel efficiency is 35 miles per gallon. That means, for every gallon of fuel the car uses, it can travel 35 miles. Got that. 
+
+Then it says the gas tank holds 14 gallons. So, the tank can give me 14 gallons of fuel before it's empty. Now, I need to figure out how far the car can go on a full tank. Essentially, I need to calculate the total distance the car can cover by multiplying the fuel efficiency by the tank's capacity.
+
+Wait, so if the car goes 35 miles on one gallon, and it can carry 14 gallons, the total distance would be 35 miles multiplied by 14 gallons. That makes sense because multiplying the distance per gallon by the number of gallons should give me the total distance.
+
+Let me write that down to make it clearer:
+
+Fuel efficiency = 35 miles per gallon  
+Tank capacity = 14 gallons  
+Total distance = Fuel efficiency × Tank capacity
+
+So, substituting the numbers:
+
+Total distance = 35 miles/gallon × 14 gallons
+
+Now, when I multiply 35 by 14, what do I get? Let me do the multiplication step by step.
+
+First, 35 multiplied by 10 is 350. Then, 35 multiplied by 4 is 140. Adding those together, 350 + 140 equals 490. 
+
+So, the total distance would be 490 miles on a full tank. 
+
+Wait, let me double-check that calculation. 14 times 35... Maybe I should break it down differently to verify. 
+
+14 times 30 is 420, and 14 times 5 is 70. Adding those together, 420 + 70 equals 490. Yeah, that checks out. 
+
+So, yeah, the car can travel 490 miles on a full 14-gallon tank at a fuel efficiency of 35 miles per gallon.
+
+I think that's all there is to it. Multiplying the two numbers gives the total distance. No complicated steps or anything here.
+</think>
+
+The car can travel 490 miles on a full tank. Here's the step-by-step explanation:
+
+1. **Fuel Efficiency**: 35 miles per gallon.
+2. **Tank Capacity**: 14 gallons.
+
+**Calculation**:
+\[
+\text{Total Distance} = \text{Fuel Efficiency} \times \text{Tank Capacity} = 35 \, \text{miles/gallon} \times 14 \, \text{gallons} = 490 \, \text{miles}
+\]
+
+**Answer**: The car can travel 490 miles on a full tank.<｜end▁of▁sentence｜>

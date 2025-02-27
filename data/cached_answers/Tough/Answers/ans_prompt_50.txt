@@ -1,0 +1,34 @@
+<｜begin▁of▁sentence｜>A recipe calls for 8 cups of flour to make 48 cookies. How many cups of flour are needed to make 96 cookies?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+I need to determine how many cups of flour are needed to make 96 cookies, given that 8 cups of flour make 48 cookies.
+
+First, I'll find the amount of flour required for each cookie by dividing the total amount of flour by the number of cookies.
+
+Next, I'll use this amount of flour per cookie to calculate the total amount needed for 96 cookies by multiplying the flour per cookie by the number of cookies.
+</think>
+
+Let's solve the problem step by step.
+
+**Given:**
+- A recipe requires **8 cups of flour** to make **48 cookies**.
+
+**Question:**
+- How many **cups of flour** are needed to make **96 cookies**?
+
+**Solution:**
+
+1. **Find the amount of flour needed per cookie:**
+   
+   \[
+   \text{Flour per cookie} = \frac{8 \text{ cups}}{48 \text{ cookies}} = \frac{1}{6} \text{ cup per cookie}
+   \]
+
+2. **Calculate the flour needed for 96 cookies:**
+   
+   \[
+   \text{Flour for 96 cookies} = 96 \text{ cookies} \times \frac{1}{6} \text{ cup per cookie} = 16 \text{ cups}
+   \]
+
+**Answer:**
+\[
+\boxed{16 \text{ cups}}
+\]<｜end▁of▁sentence｜>

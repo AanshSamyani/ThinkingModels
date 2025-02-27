@@ -1,0 +1,128 @@
+<｜begin▁of▁sentence｜>A number is decreased by 15%, and the result is 85. What was the original number?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I have this problem here: "A number is decreased by 15%, and the result is 85. What was the original number?" Hmm, let me try to figure this out step by step.
+
+Alright, first off, I need to understand what the problem is asking. It's saying that some number is decreased by 15%, and after decreasing it, the result is 85. So, my goal is to find out what that original number was before the decrease. Got it.
+
+I think the best way to approach this is to translate the words into a mathematical equation. Let's see... If I let the original number be x, then decreasing it by 15% means I'm taking away 15% of x from the original number. In mathematical terms, that would be x minus 0.15x. Wait, let me write that down:
+
+x - 15% of x = 85
+
+Hmm, simplifying that, 15% of x is 0.15x, so:
+
+x - 0.15x = 85
+
+Let me compute x minus 0.15x. That should be the remaining percentage of x after the 15% decrease. So, x minus 0.15x is 0.85x. So, 0.85x equals 85. That makes sense because if you take away 15%, you're left with 85% of the original number.
+
+So now, the equation is:
+
+0.85x = 85
+
+Okay, so to find x, I need to solve for it. That means I should divide both sides of the equation by 0.85. Let me set that up:
+
+x = 85 / 0.85
+
+Wait, let me compute that. What is 85 divided by 0.85? Let me think. I know that dividing by 0.85 is the same as multiplying by the reciprocal, which is approximately 1.17647. But maybe it's easier to do it step by step.
+
+Alternatively, I can multiply both numerator and denominator by 100 to eliminate the decimal. So:
+
+x = (85 * 100) / 85
+
+Wait, 85 times 100 is 8500, and 8500 divided by 85. Hmm, 85 goes into 8500 how many times? Let me see. 85 times 100 is 8500, so that means it divides exactly 100 times. So, x equals 100.
+
+Wait, that's nice! So, the original number was 100. Let me just verify that to make sure I didn't make any mistakes.
+
+So, if I take 100 and decrease it by 15%, I should get 85. Let's compute 15% of 100, which is 15. Subtracting that from 100 gives me 85. Yep, that checks out.
+
+Hmm, but let me go back through my steps to make sure I didn't skip anything or make any calculation errors. I let x be the original number. Decreasing it by 15% gives me x - 0.15x, which is 0.85x. That equals 85. Then, solving for x gives x = 85 / 0.85 = 100. That seems solid.
+
+Alternatively, another way to think about this is to realize that if 85 is 85% of the original number, since we decreased it by 15% (so 100% - 15% = 85%). Therefore, 85 is 85% of x. So, 85 is equal to 0.85x, and solving for x gives x = 85 / 0.85, which is 100. Yep, same result.
+
+Wait a second, another way to think about it: percentage decrease. A decrease of 15% means the original amount is 100%, and after the decrease, it's 85% of the original. So, if 85% corresponds to 85, then 100% should correspond to x. So, the multiplier from 85% back to 100% is 1.17647 (since 85 * 1.17647 ≈ 100). Therefore, 85 * (100/85) = 100. That's another way to arrive at the same answer.
+
+So, all my methods lead me to x equals 100. That makes me feel confident that 100 is the correct original number.
+
+But let me double-check my first calculation just to make sure there are no hidden steps or errors. Let's see, 15% of 100 is 15, subtract that from 100, and I get 85. Yep, that's correct.
+
+Another sanity check: if the original number was higher, say 110, then 15% of 110 is 16.5, so 110 - 16.5 = 93.5, which is less than 85. Wait, so as the original number increases, the result decreases. That seems consistent, since the decrease is a percentage of the original number.
+
+Wait, but in this case, if the original number is 100, the decrease is 15, leading to 85. If the original number was less than 100, say 90, then 15% of 90 is 13.5, and 90 - 13.5 = 76.5, which is more than 85. Wait, that contradicts the earlier idea. Hmm, perhaps I'm confusing something here.
+
+Wait, no. The decrease in absolute terms depends on the original number. So, 15% of a higher number is more than 15% of a lower number. Therefore, if the original number was 100, decreasing it by 15% leads to 85. If the original number was lower, say 80, decreasing by 15% would lead to 80 - 12 = 68. Which is different.
+
+But in this problem, since we know the result is 85, it must correspond to an original number that when 15% is taken from it, gives 85. So, 100 is correct because 100 - 15 = 85.
+
+Let me try another example. If I have a number, say 200, and I decrease it by 15%, that would be 200 - 30 = 170. So, 200 is the original number, after a 15% decrease, it's 170.
+
+Wait, so the idea is that if I take 25% off of 80, I get 60, because 80 - 20 = 60.
+
+Wait, 25% off is subtracting 25% of 80, which is 20. So, 80 - 20 = 60.
+
+But if I take 15% off of 100, I get 85. So, higher percentage of a lower number can give a higher decrease. Wait, perhaps the percentage and the absolute value are inversely related based on the original number.
+
+But in any case, going back to the problem, since 85 is the result after a 15% decrease, we need to find x such that x - 0.15x = 85, which gives x = 100. That's solid.
+
+Wait, another angle: if I want to solve for x, I can write it as x = 85 / (1 - 0.15) = 85 / 0.85 = 100. Yep, that's a more straightforward way to write it, factoring out the percentage decrease.
+
+So, in this case, the percentage decrease is 15%, so we subtract that from 100% to get 85%, which is the percentage of the original number that remains. Thus, the original number is 85 divided by 0.85, which is 100.
+
+Alright, I think I've got it now. It just downplays the confusion about how percentages work, but ultimately, breaking it down step by step and verifying each calculation helps ensure accuracy.
+
+I wonder, though, if there's a way to represent this problem graphically or with another mathematical model to better understand it. Maybe using a bar model where one bar represents the original number and another bar represents the decreased number. That could visually show the 15% decrease.
+
+Alternatively, thinking in terms of proportions. Since 85 is 85% of the original number, the original number must be higher than 85 to compensate for the percentage decrease. So, 100 is 85% of 100, making it the original number.
+
+Another way to see it is that if you have two numbers and one is a percentage less than the other, you can find the original number by dividing the resulting number by the percentage it's a percentage of.
+
+So, in this case, 85 is 85% of the original number, so original number = 85 / (1 - 0.15) = 85 / 0.85 = 100.
+
+Wait, maybe I can test it with another example. If I decrease 200 by 15%, I get 170, as I thought earlier. So, 15% of 200 is 30, 200 - 30 = 170. Similarly, 85 is 85% of 100. So, that seems consistent.
+
+Wait, another example: if I take 150 and decrease it by 15%, what do I get? Let me calculate. 15% of 150 is 22.5, so 150 - 22.5 = 127.5. So, 150 decreased by 15% is 127.5. So, 127.5 is 85% of 150. Hmm, so 85 is 85% of 100, and 127.5 is 85% of 150. So, 85 is exactly 15% less than 100, so that seems to fit.
+
+But the problem says that the result is 85 after a 15% decrease, so the original number is 100, leading to 85. That makes sense.
+
+I think I've verified it enough from different angles and all seem to confirm that the original number is indeed 100. So, I feel confident that 100 is the correct answer.
+</think>
+
+The original number is 100.
+
+**Step-by-Step Explanation:**
+
+1. **Understand the Problem:**
+   - A number is decreased by 15%, and the result is 85.
+   - We need to find the original number.
+
+2. **Set Up the Equation:**
+   - Let \( x \) be the original number.
+   - Decreasing \( x \) by 15% means calculating \( x \) minus 15% of \( x \):
+     \[
+     x - 0.15x = 85
+     \]
+   
+3. **Simplify the Equation:**
+   - Combine like terms:
+     \[
+     0.85x = 85
+     \]
+   
+4. **Solve for \( x \):**
+   - Divide both sides by 0.85 to isolate \( x \):
+     \[
+     x = \frac{85}{0.85}
+     \]
+   - Calculate the division:
+     \[
+     x = 100
+     \]
+
+5. **Verification:**
+   - Substitute \( x = 100 \) back into the original expression to verify:
+     \[
+     100 - 0.15 \times 100 = 85
+     \]
+     \[
+     100 - 15 = 85
+     \]
+     - The equation holds true.
+
+**Answer:** The original number is 100.<｜end▁of▁sentence｜>

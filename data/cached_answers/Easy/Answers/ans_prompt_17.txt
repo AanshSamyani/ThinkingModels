@@ -1,0 +1,14 @@
+<｜begin▁of▁sentence｜>What is 20% of 80?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+To calculate 20% of 80, you can follow these steps:
+
+1. Convert the percentage to a decimal by dividing by 100. So, 20% becomes 0.20.
+2. Multiply the decimal by the number. In this case, multiply 0.20 by 80.
+
+\[
+0.20 \times 80 = 16
+\]
+
+So, 20% of 80 is **16**.<｜end▁of▁sentence｜>

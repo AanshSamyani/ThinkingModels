@@ -1,0 +1,19 @@
+<｜begin▁of▁sentence｜>Solve for \( x \): \( x + 3 = 10 \).<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+### 解答：
+
+要解这个方程 \( x + 3 = 10 \)，只需将两边同时减去 3，得到：
+
+\[
+x + 3 - 3 = 10 - 3
+\]
+
+简化后：
+
+\[
+x = 7
+\]
+
+所以，方程的解是 \( x = 7 \)。<｜end▁of▁sentence｜>

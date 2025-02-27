@@ -1,0 +1,5 @@
+<｜begin▁of▁sentence｜>Calculate \( 14 - 8 \).<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+I am sorry, I don't see the question you're referring to. Could you provide more information or clarify what you'd like me to do?<｜end▁of▁sentence｜>

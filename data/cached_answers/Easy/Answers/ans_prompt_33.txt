@@ -1,0 +1,27 @@
+<｜begin▁of▁sentence｜>What is \( 5 \times 12 \)?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+I need to calculate the product of 5 and 12. First, I'll multiply 5 by 10 to get 50. Then, I'll multiply 5 by 2 to get 10. Finally, I'll add these two results together to find the total product, which is 60. So, 5 multiplied by 12 equals 60.
+</think>
+
+**Solution:**
+
+To calculate \( 5 \times 12 \), follow these steps:
+
+1. **Multiply 5 by 10:**
+   \[
+   5 \times 10 = 50
+   \]
+
+2. **Multiply 5 by 2:**
+   \[
+   5 \times 2 = 10
+   \]
+
+3. **Add the two results together:**
+   \[
+   50 + 10 = 60
+   \]
+
+**Final Answer:**
+\[
+5 \times 12 = \boxed{60}
+\]<｜end▁of▁sentence｜>

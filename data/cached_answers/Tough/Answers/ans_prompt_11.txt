@@ -1,0 +1,31 @@
+<｜begin▁of▁sentence｜>A train travels 180 miles in 3 hours. How long will it take to travel 300 miles at the same speed?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+To find the time it takes to travel 300 miles at the same speed, I'll first determine the train's speed.
+
+Given that the train travels 180 miles in 3 hours, I'll divide the distance by the time to find the speed. That calculation gives me 60 miles per hour.
+
+Next, I'll use the speed to find the time for a 300-mile journey. By dividing the distance by the speed, I'll find that it takes 5 hours to travel 300 miles.
+</think>
+
+**Solution:**
+
+We are given that a train travels 180 miles in 3 hours. Let's determine the train's speed and then use it to find the time required to travel 300 miles.
+
+1. **Calculate the Speed:**
+
+   \[
+   \text{Speed} = \frac{\text{Distance}}{\text{Time}} = \frac{180 \text{ miles}}{3 \text{ hours}} = 60 \text{ miles per hour}
+   \]
+
+2. **Determine the Time to Travel 300 Miles:**
+
+   Using the formula:
+
+   \[
+   \text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{300 \text{ miles}}{60 \text{ miles per hour}} = 5 \text{ hours}
+   \]
+
+**Final Answer:**
+
+\[
+\boxed{5 \text{ hours}}
+\]<｜end▁of▁sentence｜>

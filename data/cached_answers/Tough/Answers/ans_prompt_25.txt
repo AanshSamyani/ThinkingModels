@@ -1,0 +1,19 @@
+<｜begin▁of▁sentence｜>A triangle has sides of lengths 9 cm, 12 cm, and 15 cm. Is it a right triangle? Explain.<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+Yes, a triangle with sides of lengths 9 cm, 12 cm, and 15 cm is a right triangle. This can be determined using the **Pythagorean theorem**, which states that in a right triangle, the square of the hypotenuse (the longest side) is equal to the sum of the squares of the other two sides.
+
+Let's calculate:
+- \(9^2 = 81\)
+- \(12^2 = 144\)
+- \(15^2 = 225\)
+
+According to the theorem:
+\[
+81 + 144 = 225
+\]
+\[
+225 = 225
+\]
+Since the equation holds true, the triangle satisfies the Pythagorean theorem, confirming it is a right triangle.<｜end▁of▁sentence｜>

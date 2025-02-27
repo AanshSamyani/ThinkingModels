@@ -1,0 +1,13 @@
+<｜begin▁of▁sentence｜>
+Okay, so I need to prove that the sum of the first n odd natural numbers is equal to n². Hmm, alright, let me think about how to approach this. 
+
+First, let me clarify what's meant by "the sum of first n odd natural numbers." Odd natural numbers are numbers like 1, 3, 5, 7, etc., where each subsequent odd number increases by 2. So, the sequence would be: 
+1, 3, 5, 7, ..., up to the nth term.
+
+So, I need to add these numbers together and show that their sum equals n².
+
+Let me jot down some examples to see if this holds true. 
+
+For n=1: sum =1=1²=1. Okay, that works.
+For n=2:1+3=4=2²=4. Perfect.
+For n=3:1+3+5=9=3²=9

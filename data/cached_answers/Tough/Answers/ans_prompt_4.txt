@@ -1,0 +1,38 @@
+<｜begin▁of▁sentence｜>A shop sells bananas at $0.50 each and apples at $0.75 each. If you buy 6 bananas and 4 apples, how much will you pay?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+I start by identifying the prices of each item. Bananas cost $0.50 each, and apples cost $0.75 each.
+
+Next, I calculate the total cost for the bananas. Buying 6 bananas at $0.50 each will cost 6 multiplied by $0.50, which equals $3.00.
+
+Then, I calculate the total cost for the apples. Buying 4 apples at $0.75 each will cost 4 multiplied by $0.75, which equals $3.00.
+
+Finally, I add the total costs of bananas and apples together to find the overall amount to be paid. $3.00 for bananas plus $3.00 for apples equals $6.00.
+</think>
+
+**Solution:**
+
+We need to calculate the total cost of buying 6 bananas and 4 apples, given the individual prices:
+
+- **Banana:** \$0.50 each
+- **Apple:** \$0.75 each
+
+**Step 1: Calculate the cost of bananas**
+
+\[
+\text{Total cost for bananas} = 6 \text{ bananas} \times \$0.50/\text{banana} = \$3.00
+\]
+
+**Step 2: Calculate the cost of apples**
+
+\[
+\text{Total cost for apples} = 4 \text{ apples} \times \$0.75/\text{apple} = \$3.00
+\]
+
+**Step 3: Calculate the total cost**
+
+\[
+\text{Total cost} = \text{Total cost for bananas} + \text{Total cost for apples} = \$3.00 + \$3.00 = \$6.00
+\]
+
+\[
+\boxed{\$6.00}
+\]<｜end▁of▁sentence｜>

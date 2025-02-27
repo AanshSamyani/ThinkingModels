@@ -1,0 +1,39 @@
+<｜begin▁of▁sentence｜>A recipe calls for 4 cups of flour to make 24 cookies. How many cups of flour are needed to make 60 cookies?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+I need to find out how much flour is required for 60 cookies based on the given recipe. The original recipe makes 24 cookies with 4 cups of flour.
+
+First, I'll determine how much flour is needed for one cookie. Dividing the total cups of flour by the number of cookies gives me 4 cups divided by 24 cookies, which equals approximately 0.1667 cups per cookie.
+
+Next, I'll multiply the amount needed for one cookie by the number of cookies I want to make. Multiplying 0.1667 cups by 60 cookies results in about 10 cups of flour needed.
+
+To ensure accuracy, I'll perform a quick check using the original numbers. If 24 cookies require 4 cups, then 60 cookies would require more. Dividing 60 by 24 gives me 2.5, meaning 2.5 times the original amount of flour should be used, which is 4 cups multiplied by 2.5, totaling 10 cups.
+
+Therefore, the final answer is that 10 cups of flour are required to make 60 cookies.
+</think>
+
+To determine how many cups of flour are needed to make 60 cookies, let's follow these steps:
+
+1. **Understand the Given Recipe:**
+   
+   - **Original Recipe:**
+     - **Flour Required:** 4 cups
+     - **Cookies Made:** 24
+
+2. **Determine the Amount of Flour per Cookie:**
+   
+   \[
+   \text{Flour per Cookie} = \frac{\text{Total Flour}}{\text{Number of Cookies}} = \frac{4 \text{ cups}}{24} \approx 0.1667 \text{ cups per cookie}
+   \]
+
+3. **Calculate Flour Needed for 60 Cookies:**
+   
+   \[
+   \text{Flour for 60 Cookies} = 60 \text{ cookies} \times 0.1667 \text{ cups per cookie} \approx 10 \text{ cups}
+   \]
+
+4. **Final Answer:**
+   
+   \[
+   \boxed{10 \text{ cups of flour}}
+   \]
+
+By following these steps, you can easily calculate the required amount of flour for any number of cookies based on the given recipe.<｜end▁of▁sentence｜>

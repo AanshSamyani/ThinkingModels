@@ -1,0 +1,23 @@
+<｜begin▁of▁sentence｜>Solve for \( x \): \( x - 5 = 12 \).<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+Sure, let's solve the equation \( x - 5 = 12 \) together.
+
+1. **Start with the given equation:**
+   \[
+   x - 5 = 12
+   \]
+
+2. **Add 5 to both sides to isolate \( x \):**
+   \[
+   x - 5 + 5 = 12 + 5
+   \]
+   \[
+   x = 17
+   \]
+
+3. **Final answer:**
+   \[
+   x = \boxed{17}
+   \]<｜end▁of▁sentence｜>

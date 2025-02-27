@@ -1,0 +1,39 @@
+<｜begin▁of▁sentence｜>Simplify \( \frac{9}{12} \).<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Alright, so I have to simplify the fraction 9 over 12. Hmm, okay. Let me think about how to approach this. I remember that simplifying a fraction means getting it into its lowest terms, where the numerator and denominator have no common factors other than 1. So, I need to find the greatest common divisor (GCD) of 9 and 12 and then divide both the numerator and denominator by that number.
+
+First, let me list the factors of both 9 and 12. Factors are numbers that divide into them without leaving a remainder. For 9, the factors are 1, 3, and 9. I got that by dividing 9 by 1, 3, and 9. Then, for 12, I list the numbers that divide into it evenly: 1, 2, 3, 4, 6, and 12. So, 12 has more factors, but I need the common ones.
+
+Looking at both lists, the common factors are 1, 3. Now, 3 is the greatest common factor because it's the largest number that divides both 9 and 12 without a remainder. So, I can use 3 as the GCD.
+
+Now, I divide both the numerator and denominator by 3. Let's do that step by step.
+
+Starting with the numerator: 9 divided by 3. Well, 3 goes into 9 exactly 3 times because 3 times 3 is 9. So, 9 divided by 3 is 3.
+
+Now, the denominator: 12 divided by 3. Let's see, 3 times 4 is 12, right? So, 12 divided by 3 is 4.
+
+Putting it all together, after dividing both the numerator and denominator by their GCD, which is 3, I get 3 over 4.
+
+Let me double-check to make sure I didn't make any mistakes. 3 times 3 is 9, and 3 times 4 is 12, so that lines up correctly. Also, checking the GCD again, 3 is indeed the largest number that divides both without a remainder.
+
+So, I feel confident that simplifying 9 over 12 gives me 3 over 4. I think that's the correct and simplest form of the fraction.
+</think>
+
+To simplify the fraction \( \frac{9}{12} \), follow these steps:
+
+1. **Find the Greatest Common Divisor (GCD):**
+   - Factors of 9: 1, 3, 9
+   - Factors of 12: 1, 2, 3, 4, 6, 12
+   - Common factors: 1, 3
+   - Greatest common divisor: 3
+
+2. **Divide both the numerator and denominator by the GCD:**
+   - Numerator: \( 9 \div 3 = 3 \)
+   - Denominator: \( 12 \div 3 = 4 \)
+
+3. **Write the simplified fraction:**
+   - \( \frac{9}{12} = \frac{3}{4} \)
+
+**Final Answer:**
+\[
+\boxed{\frac{3}{4}}
+\]<｜end▁of▁sentence｜>

@@ -1,0 +1,71 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+</think>
+
+Sure, let's prove that the sum of the first \( n \) odd natural numbers is equal to \( n^2 \).
+
+**Step 1: Understanding the Sequence of Odd Numbers**
+
+The sequence of odd natural numbers starts as follows:
+\[
+1, 3, 5, 7, 9, 11, \ldots
+\]
+The \( k \)-th odd natural number can be expressed as:
+\[
+a_k = 2k - 1
+\]
+where \( k = 1, 2, 3, \ldots \)
+
+**Step 2: Summing the First \( n \) Odd Numbers**
+
+We want to find the sum \( S \) of the first \( n \) odd numbers:
+\[
+S = a_1 + a_2 + a_3 + \ldots + a_n = 1 + 3 + 5 + \ldots + (2n - 1)
+\]
+
+**Step 3: Expressing the Sum Using the Formula for \( a_k \)**
+
+Using the expression for \( a_k \), the sum becomes:
+\[
+S = \sum_{k=1}^{n} (2k - 1)
+\]
+This can be split into two separate sums:
+\[
+S = 2\sum_{k=1}^{n} k - \sum_{k=1}^{n} 1
+\]
+
+**Step 4: Calculating the Sums**
+
+We know that:
+\[
+\sum_{k=1}^{n} k = \frac{n(n + 1)}{2}
+\]
+\[
+\sum_{k=1}^{n} 1 = n
+\]
+
+Substituting these into the expression for \( S \):
+\[
+S = 2 \left( \frac{n(n + 1)}{2} \right) - n = n(n + 1) - n = n^2 + n - n = n^2
+\]
+
+**Conclusion:**
+
+Therefore, the sum of the first \( n \) odd natural numbers is:
+\[
+1 + 3 + 5 + \ldots + (2n - 1) = n^2
+\]
+This completes the proof.
+
+```lean4
+theorem sum_odd_n : 
+  Sum fun k => k : List ℕ ⊆ n ^ 2 := by
+  -- We use a straightforward approach to show that each odd number is a divisor of n squared.
+  refine' le_rfl
+  -- Simplify the expression to show that the sum of the first n odd natural numbers equals n squared.
+  simp only [sq, Nat.mul_succ, Nat.mul_one, Nat.add_zero, Nat.zero_add]
+  -- Use the fact that the sum of the first n odd natural numbers equals n squared.
+  <;> simp_all [Nat.add_assoc, Nat.add_comm, Nat.add_left_comm]
+  <;> linarith
+```<｜end▁of▁sentence｜>

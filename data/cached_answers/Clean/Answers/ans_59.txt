@@ -1,0 +1,138 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I need to figure out how to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, let's start by writing down what those numbers look like. The first few odd numbers are 1, 3, 5, 7, and so on. Each one increases by 2 from the previous.
+
+If I want to add the first n of these, I can denote each term as 2k - 1, where k starts at 1 and goes up to n. So the sum S would be:
+
+S = 1 + 3 + 5 + 7 + ... + (2n - 1)
+
+I need to show that this sum equals n². Maybe I can use some kind of pattern or formula to help me. Let me try calculating it for small values of n to see if I can spot a pattern.
+
+When n = 1:
+S = 1
+1² = 1
+So, 1 = 1. That works.
+
+When n = 2:
+S = 1 + 3 = 4
+2² = 4
+Okay, that's good.
+
+When n = 3:
+S = 1 + 3 + 5 = 9
+3² = 9
+Still matches.
+
+When n = 4:
+S = 1 + 3 + 5 + 7 = 16
+4² = 16
+Awesome, works again.
+
+This is reassuring. Now, how can I generalize this? Maybe I can use mathematical induction or some known formula.
+
+Wait, I remember that the sum of an arithmetic series can be calculated using the formula:
+
+Sum = (number of terms) × (first term + last term) / 2
+
+Let me apply that here. The number of terms is n, the first term is 1, and the last term is 2n - 1. Plugging those into the formula:
+
+Sum = n × (1 + (2n - 1)) / 2
+Simplify inside the parentheses:
+1 + 2n - 1 = 2n
+So, Sum = n × 2n / 2
+Simplify:
+n × 2n / 2 = n × n = n²
+
+Oh, that's a neat proof! But wait, is there another way to think about this? Maybe pairing the numbers somehow. Let me try pairing the first and last term, second and second-last term, etc.
+
+For n = 3:
+1 + 3 + 5
+Pair 1 and 5: 1 + 5 = 6
+Then add the middle term 3: 6 + 3 = 9
+
+For n = 4:
+1 + 3 + 5 + 7
+Pair 1 and 7: 1 + 7 = 8
+Pair 3 and 5: 3 + 5 = 8
+Total Sum: 8 + 8 = 16
+
+I notice that each pair adds up to 2n. For n = 3, each pair was 6 = 2×3. For n = 4, each pair was 8 = 2×4. That seems consistent. So, the total sum would be the number of pairs times 2n.
+
+Number of pairs is n/2, but for n even, that works. For n odd, like 3, you have a middle term that's not paired. So, to generalize:
+
+Total Sum = (Number of Pairs) × 2n
+
+If n is even:
+Number of pairs = n/2
+Total Sum = (n/2) × 2n = n × n = n²
+
+If n is odd:
+Number of pairs = (n - 1)/2
+Middle term is n itself (since 2×(n) -1 = 2n -1, which is the last term for n=3)
+So, Total Sum = [(n - 1)/2] × 2n + n = (n - 1) × n + n = n² - n + n = n²
+
+Either way, whether n is odd or even, the total sum equals n squared.
+
+Wait, I'm not sure if using pairs is the best approach here, but it does seem to work. Another idea is to use mathematical induction. Let me try that.
+
+Base case: n = 1
+Sum = 1
+1² = 1
+True.
+
+Inductive step: Assume it's true for n = k, that Sum = k². Then, for n = k +1, the sum should be k² + (2k +1).
+
+But wait, when I add the next odd number, which is 2(k +1) -1 = 2k +1. So, Sum = k² + 2k +1 = (k +1)²
+
+Yes, that works. So, by induction, it's true for all positive integers n.
+
+So, there are multiple ways to approach this proof: using the arithmetic series formula, pairing the terms, or mathematical induction.
+
+I think I've got enough to write up the proof clearly.
+</think>
+
+To prove that the sum of the first n odd natural numbers is equal to n², we can use mathematical induction and another algebraic method.
+
+**Proof Using Mathematical Induction:**
+
+*Statement:* The sum of the first n odd natural numbers is n².
+
+*Base Case (n = 1):*
+The first odd number is 1.
+Sum = 1
+n² = 1² = 1
+Thus, the base case holds.
+
+*Inductive Step:*
+Assume the statement is true for some positive integer k, i.e.,
+1 + 3 + 5 + ... + (2k - 1) = k²
+
+We need to show that the statement holds for k + 1:
+1 + 3 + 5 + ... + (2k - 1) + (2(k + 1) - 1) = (k + 1)²
+
+Starting from the left side:
+Sum = k² + (2k + 1)
+Sum = k² + 2k + 1
+Sum = (k² + 2k + 1)
+Sum = (k + 1)²
+
+Thus, by induction, the statement holds for all positive integers n.
+
+**Alternative Proof Using Arithmetic Series:**
+
+The first n odd natural numbers form an arithmetic sequence where the first term (a₁) is 1, the last term (a_n) is (2n - 1), and the common difference (d) is 2.
+
+The sum of an arithmetic series is given by:
+S = n × (a₁ + a_n) / 2
+
+Substituting the values:
+S = n × [1 + (2n - 1)] / 2
+Simplify inside the brackets:
+1 + 2n - 1 = 2n
+Thus:
+S = n × 2n / 2
+S = n × n
+S = n²
+
+Therefore, the sum of the first n odd natural numbers is equal to n².<｜end▁of▁sentence｜>

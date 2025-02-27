@@ -1,0 +1,46 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+</think>
+
+To prove that the sum of the first \( n \) odd natural numbers is equal to \( n^2 \), we can proceed as follows:
+
+**Step 1: List the First \( n \) Odd Numbers**
+The first \( n \) odd natural numbers can be written as:
+\[ 1, 3, 5, 7, \ldots, (2n - 1) \]
+
+**Step 2: Sum the First \( n \) Odd Numbers**
+Let \( S \) be the sum of these numbers:
+\[ S = 1 + 3 + 5 + 7 + \ldots + (2n - 1) \]
+
+**Step 3: Pair the Numbers Strategically**
+We can pair the first and last terms, the second and second-last terms, and so on:
+\[ (1 + (2n - 1)) + (3 + (2n - 3)) + \ldots + (n) \]
+Each pair simplifies to:
+\[ (2n) + (2n) + \ldots + (2n) \]
+There are \( n \) such pairs, each contributing \( 2n \):
+\[ S = n \times 2n = 2n^2 \]
+
+**Step 4: Re-examining the Pairing**
+Upon re-examining, each pair simplifies to:
+\[ 1 + (2n - 1) = 2n \]
+Similarly, \( 3 + (2n - 3) = 2n \), and so on. Therefore, each pair is \( 2n \), and with \( n \) pairs:
+\[ S = n \times 2n = 2n^2 \]
+
+**Step 5: Correcting the Final Expression**
+However, the correct formula for the sum of the first \( n \) odd natural numbers is \( n^2 \). This discrepancy suggests a miscalculation.
+
+**Step 6: Correcting the Approach**
+To rectify this, observe that each pair:
+\[ 1 + (2n - 1) = 2n \]
+But the actual sum is:
+\[ S = \sum_{k=1}^{n} (2k - 1) = 2\sum_{k=1}^{n}k - \sum_{k=1}^{n}1 \]
+\[ S = 2 \times \frac{n(n + 1)}{2} - n = n(n + 1) - n = n^2 + n - n = n^2 \]
+
+**Conclusion**
+Therefore, the sum of the first \( n \) odd natural numbers is indeed \( n^2 \):
+\[ \sum_{k=1}^{n} (2k - 1) = n^2 \]
+
+This completes the proof.
+
+\#<｜end▁of▁sentence｜>

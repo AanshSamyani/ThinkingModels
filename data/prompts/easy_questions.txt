@@ -1,0 +1,50 @@
+1. What is \( 5 + 7 \)?  
+2. Solve for \( x \): \( x + 3 = 10 \).  
+3. What is \( 12 \times 4 \)?  
+4. Calculate \( 10 - 6 \).  
+5. What is \( \frac{1}{2} + \frac{1}{4} \)?  
+6. Find the perimeter of a square with side length 5.  
+7. What is 10% of 50?  
+8. Simplify \( \frac{9}{12} \).  
+9. What is \( 3^3 \)?  
+10. Solve \( 8 \div 2 \).  
+11. What is \( 15 - 9 \)?  
+12. Solve for \( x \): \( 4x = 20 \).  
+13. What is \( 7 \times 8 \)?  
+14. Calculate \( 25 \div 5 \).  
+15. What is \( \frac{2}{3} - \frac{1}{6} \)?  
+16. Find the area of a rectangle with length 6 and width 4.  
+17. What is 20% of 80?  
+18. Simplify \( \frac{15}{20} \).  
+19. What is \( 2^5 \)?  
+20. Solve \( 9 + 7 \).  
+21. What is \( 18 \div 3 \)?  
+22. Solve for \( x \): \( x - 5 = 12 \).  
+23. What is \( 6 \times 9 \)?  
+24. Calculate \( 14 - 8 \).  
+25. What is \( \frac{3}{5} + \frac{2}{5} \)?  
+26. Find the perimeter of a rectangle with length 7 and width 3.  
+27. What is 30% of 90?  
+28. Simplify \( \frac{18}{24} \).  
+29. What is \( 4^3 \)?  
+30. Solve \( 12 \times 3 \).  
+31. What is \( 21 \div 7 \)?  
+32. Solve for \( x \): \( 3x = 27 \).  
+33. What is \( 5 \times 12 \)?  
+34. Calculate \( 16 - 9 \).  
+35. What is \( \frac{4}{7} - \frac{1}{7} \)?  
+36. Find the area of a square with side length 9.  
+37. What is 15% of 60?  
+38. Simplify \( \frac{20}{25} \).  
+39. What is \( 2^6 \)?  
+40. Solve \( 10 + 15 \).  
+41. What is \( 24 \div 6 \)?  
+42. Solve for \( x \): \( x + 8 = 20 \).  
+43. What is \( 9 \times 7 \)?  
+44. Calculate \( 30 - 12 \).  
+45. What is \( \frac{5}{8} + \frac{1}{8} \)?  
+46. Find the perimeter of a rectangle with length 10 and width 5.  
+47. What is 25% of 120?  
+48. Simplify \( \frac{16}{32} \).  
+49. What is \( 3^4 \)?  
+50. Solve \( 14 \div 2 \).

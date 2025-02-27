@@ -1,0 +1,66 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I need to figure out how to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, where do I start? I remember that odd numbers are numbers like 1, 3, 5, 7, and so on. So the first few odd numbers are 1, 3, 5, 7, etc. Let me write them down to see if I can spot a pattern when I add them up.
+
+If n is 1, the sum is just 1. That's 1 squared, which is 1. Okay, that works.
+If n is 2, the sum is 1 + 3, which is 4. That's 2 squared, so that's good too.
+If n is 3, the sum is 1 + 3 + 5, which is 9. That's 3 squared. Wow, that's consistent.
+Let me try n=4: 1 + 3 + 5 + 7 = 16. That's 4 squared. Okay, so far the pattern holds.
+
+So, maybe the formula is S = n², where S is the sum of the first n odd numbers. But how do I prove this generally?
+
+I think induction might be a good approach here because I can show that if the statement holds for n=k, it also holds for n=k+1. Let me try that.
+
+Let me denote S(n) as the sum of the first n odd numbers.
+
+Base case: n=1.
+S(1) = 1, and 1² = 1. So, it holds for n=1.
+
+Inductive step: Assume that S(k) = k² holds for some arbitrary positive integer k.
+Now, I need to show that S(k+1) = (k+1)².
+
+What's S(k+1)? It's S(k) + (2k+1), because the (k+1)th odd number is 2k+1. So,
+S(k+1) = S(k) + (2k+1) = k² + 2k + 1.
+
+Now, let's compute (k+1)²:
+(k+1)² = k² + 2k + 1.
+
+So, S(k+1) = (k+1)². That completes the inductive step.
+
+Therefore, by mathematical induction, the sum of the first n odd natural numbers is equal to n².
+</think>
+
+To prove that the sum of the first n odd natural numbers is equal to n², we can use mathematical induction.
+
+**Base Case (n = 1):**
+The first odd natural number is 1.
+Sum = 1 = 1².
+Thus, the statement holds for n = 1.
+
+**Inductive Hypothesis:**
+Assume that the statement holds for some positive integer k, i.e.,
+Sum of first k odd natural numbers = k².
+
+**Inductive Step:**
+We need to show that the sum of the first (k + 1) odd natural numbers is (k + 1)².
+
+Sum of first (k + 1) odd natural numbers = Sum of first k odd natural numbers + (2k + 1)
+According to the inductive hypothesis, this equals k² + (2k + 1).
+
+Simplify:
+k² + 2k + 1 = (k + 1)².
+
+Thus, the statement holds for n = k + 1.
+
+**Conclusion:**
+By the principle of mathematical induction, the sum of the first n odd natural numbers is equal to n² for all positive integers n.
+
+```lean4
+theorem sum_odds : ∀ n, sum_odd n = n ^ 2 := by
+  intro n
+  induction n <;> simp_all [sum_odd]
+  <;> norm_num
+  <;> ring
+  <;> linarith
+```<｜end▁of▁sentence｜>

@@ -1,0 +1,31 @@
+<｜begin▁of▁sentence｜>A pizza is divided into 12 slices. If 4 people share it equally, how many slices does each person get?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+To determine how many slices each person gets, I will start by noting that the pizza is divided into 12 slices.
+
+Next, I'll consider that there are 4 people sharing the pizza equally.
+
+To find out how many slices each person receives, I'll divide the total number of slices by the number of people.
+
+This calculation will give the exact number of slices that each person gets.
+</think>
+
+**Solution:**
+
+1. **Number of Slices:**
+   - Total number of slices in the pizza = 12 slices.
+
+2. **Number of People Sharing:**
+   - Number of people = 4.
+
+3. **Slices per Person:**
+   - To find out how many slices each person gets, divide the total number of slices by the number of people:
+     \[
+     \text{Slices per person} = \frac{\text{Total slices}}{\text{Number of people}} = \frac{12}{4}
+     \]
+     \[
+     \text{Slices per person} = 3
+     \]
+
+**Final Answer:**
+\[
+\boxed{3}
+\]<｜end▁of▁sentence｜>

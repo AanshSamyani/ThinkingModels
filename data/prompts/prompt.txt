@@ -1,0 +1,1 @@
+Prove that the sum of first n odd natural numbers is equal to n^2.

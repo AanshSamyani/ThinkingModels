@@ -1,0 +1,49 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I need to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, let me think about this step by step.
+
+First, what are the first n odd natural numbers? Well, the sequence starts at 1 and each subsequent number increases by 2. So, for example, if n is 1, the only number is 1. If n is 2, the numbers are 1 and 3. If n is 3, it's 1, 3, and 5, and so on.
+
+So, the first term is 1, the second is 3, the third is 5, etc. I wonder if there's a formula for the sum of such a sequence. I know that there's a formula for the sum of an arithmetic series, which is S = (n/2)*(first term + last term). Maybe I can apply that here.
+
+Let's try that. The first term is definitely 1. Now, what's the last term when we're adding the first n odd numbers? Well, since each term increases by 2, the nth odd number can be expressed as 1 + (n - 1)*2. Let me calculate that: 1 + 2n - 2 = 2n - 1. So the last term is 2n - 1.
+
+Putting that back into the arithmetic series formula, the sum S should be S = (n/2)*(1 + (2n - 1)). Let's simplify inside the parentheses: 1 + 2n - 1 = 2n. So now we have S = (n/2)*(2n).
+
+Multiplying those together, (n/2)*(2n) = n*n = n squared. So, the sum of the first n odd numbers is indeed n squared. That makes sense!
+
+Wait, let me make sure I didn't skip any steps or make a mistake in the calculation. Let's take a small value of n to test this. If n is 3, the first three odd numbers are 1, 3, 5. Their sum is 1 + 3 + 5 = 9, which is 3 squared. That works. What about n is 5? The numbers are 1, 3, 5, 7, 9. Their sum is 1 + 3 + 5 + 7 + 9 = 25, which is 5 squared. It seems to hold true.
+
+Maybe I can think of another way to visualize this. If I arrange squares, each time adding a layer of odd numbers, it forms a larger square. For instance, the first odd number, 1, is just 1 square. Adding the second odd number, 3, would make 1 + 3 = 4, which is a 2x2 square. Then adding 5 gives 4 + 5 = 9, which is a 3x3 square, and so on. So each time we're adding another layer of odd numbers to form a bigger square, which visually supports the formula that the sum is n squared.
+
+Is there a more algebraic way to see this? Let me express the general term. The kth odd number is 2k - 1. So, the sum from k = 1 to n of (2k - 1) is equal to 2 times the sum of k from 1 to n minus the sum of 1 from 1 to n. That is, 2*(n(n + 1)/2) - n. Simplifying that, it's n(n + 1) - n = n^2 + n - n = n^2. So that also confirms it.
+
+I think I've covered the reasoning from the arithmetic series formula, from plugging in small numbers, and from algebraic manipulation. All approaches lead to the same conclusion that the sum of the first n odd natural numbers is n squared.
+</think>
+
+To prove that the sum of the first n odd natural numbers is equal to n squared, we can use multiple methods, each providing a clear and concise demonstration.
+
+**Method 1: Arithmetic Series Formula**
+
+1. Identify the first term (a) as 1 and the last term (l) as (2n - 1).
+2. The number of terms (n) is n.
+3. Use the arithmetic series sum formula: S = (n/2) * (a + l).
+4. Substitute the values: S = (n/2) * (1 + (2n - 1)) = (n/2) * 2n = n².
+
+**Method 2: Verification with Small Values**
+
+1. For n = 1: Sum = 1 = 1².
+2. For n = 2: Sum = 1 + 3 = 4 = 2².
+3. For n = 3: Sum = 1 + 3 + 5 = 9 = 3².
+4. Continue for n = 4 and n = 5, observing that the sum consistently equals n².
+
+**Method 3: Algebraic Expansion**
+
+1. Express the kth odd number as (2k - 1).
+2. Sum from k = 1 to n: S = Σ(2k - 1) = 2Σk - Σ1.
+3. Compute Σk from 1 to n = n(n + 1)/2.
+4. Compute Σ1 from 1 to n = n.
+5. Substitute back: S = 2*(n(n + 1)/2) - n = n(n + 1) - n = n² + n - n = n².
+
+All methods confirm that the sum of the first n odd natural numbers is indeed n squared.<｜end▁of▁sentence｜>

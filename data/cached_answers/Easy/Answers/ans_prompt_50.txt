@@ -1,0 +1,5 @@
+<｜begin▁of▁sentence｜>Solve \( 14 \div 2 \).<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+你好，目前只有完整的数学题 \( 14 \div 2 \) 是可解答的。如果你有其他问题或需要帮助，请告诉我！ 😊<｜end▁of▁sentence｜>

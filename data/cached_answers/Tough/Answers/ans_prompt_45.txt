@@ -1,0 +1,38 @@
+<｜begin▁of▁sentence｜>A triangle has sides of lengths 11 cm, 60 cm, and 61 cm. Is it a right triangle? Explain.<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+Yes, this is a right triangle.
+
+**Step-by-Step Explanation:**
+
+1. **Identify the sides:** We have three sides with lengths 11 cm, 60 cm, and 61 cm.
+
+2. **Check for the Pythagorean Theorem:** In a right triangle, the sum of the squares of the two shorter sides equals the square of the longest side (hypotenuse). The formula is:
+   \[
+   a^2 + b^2 = c^2
+   \]
+   where \( c \) is the hypotenuse.
+
+3. **Assign values:** Let’s assign the sides as:
+   - \( a = 11 \) cm
+   - \( b = 60 \) cm
+   - \( c = 61 \) cm
+
+4. **Calculate squares:**
+   - \( a^2 = 11^2 = 121 \) cm²
+   - \( b^2 = 60^2 = 3600 \) cm²
+   - \( c^2 = 61^2 = 3721 \) cm²
+
+5. **Sum of squares of shorter sides:**
+   \[
+   a^2 + b^2 = 121 + 3600 = 3721 \, \text{cm}^2
+   \]
+
+6. **Compare with hypotenuse squared:**
+   \[
+   c^2 = 3721 \, \text{cm}^2
+   \]
+   Since \( a^2 + b^2 = c^2 \), the Pythagorean theorem holds.
+
+**Conclusion:** Therefore, the triangle with sides 11 cm, 60 cm, and 61 cm is a right triangle.<｜end▁of▁sentence｜>

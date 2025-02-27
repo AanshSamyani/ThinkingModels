@@ -1,0 +1,71 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I need to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, let me think about how to approach this.
+
+First, let's list out the first few odd natural numbers to get a better understanding. The first odd number is 1, then 3, 5, 7, and so on. So, for n equals 1, the sum is just 1. For n equals 2, it's 1 plus 3, which equals 4. For n equals 3, it's 1 plus 3 plus 5, which is 9. Wait a minute, these sums are 1, 4, 9—those are perfect squares. So, maybe there's a pattern here.
+
+Let me test this pattern further. For n equals 4, the sum should be 1 plus 3 plus 5 plus 7. That adds up to 16, which is 4 squared. Hmm, that's consistent. So, it seems like the sum is indeed n squared. But how can I prove this for any n?
+
+I remember that induction is a common method for proving statements about natural numbers. Maybe I can use that. So, let's try mathematical induction.
+
+First, the base case. When n equals 1, the sum is 1, which is equal to 1 squared, so the base case holds.
+
+Now, assume that the statement is true for some arbitrary positive integer k. That is, assume that the sum of the first k odd natural numbers is k squared. So, 1 + 3 + 5 + ... + (2k-1) = k².
+
+Now, we need to show that the statement holds for k + 1. That is, the sum of the first (k + 1) odd natural numbers should be (k + 1) squared.
+
+So, let's add the next odd number, which is 2(k + 1) - 1, to both sides of our induction hypothesis. That would be 1 + 3 + 5 + ... + (2k - 1) + (2(k + 1) - 1). According to the hypothesis, this is equal to k² + (2k + 2 - 1) = k² + (2k + 1).
+
+Simplify that: k² + 2k + 1. Wait, that's equal to (k + 1)². Because (k + 1)² = k² + 2k + 1. So, we've shown that if the sum up to k is k², then the sum up to k + 1 is (k + 1)². Therefore, by the principle of mathematical induction, the statement is true for all natural numbers n.
+
+Alternatively, maybe there's a formula for the sum of the first n odd numbers that doesn't rely on induction. I recall that the sum of an arithmetic series is given by the formula: (number of terms) times (first term plus last term) divided by 2.
+
+Let's apply this. The first term of the sequence of odd numbers is 1, and the nth term can be expressed as 2n - 1. So, plugging into the sum formula: n * (1 + (2n - 1)) / 2.
+
+Simplify inside the parentheses: 1 + 2n - 1 = 2n. So, n * 2n / 2 = (2n²) / 2 = n². So, that confirms the sum is n squared.
+
+Alternatively, I can also use algebraic manipulation. Let's consider that the sum S = 1 + 3 + 5 + ... + (2n - 1). If I write out the terms, it's:
+
+S = 1 + 3 + 5 + ... + (2n - 1).
+
+If I reverse the order and add them:
+
+S = (2n - 1) + (2n - 3) + ... + 1.
+
+Now, if I add these two equations term by term:
+
+2S = (1 + (2n - 1)) + (3 + (2n - 3)) + ... + ((2n - 1) + 1).
+
+Each pair sums to 2n. Since there are n terms, this becomes 2n * n = 2n².
+
+Therefore, 2S = 2n², which implies S = n². This algebraic proof also shows that the sum of the first n odd natural numbers is indeed n squared.
+
+Wait, I remember there's also a geometric interpretation. If I arrange squares in a way that the number of squares corresponds to the odd numbers, adding up to a larger square. Maybe that's another way to visualize it, but I think the algebraic proof is more straightforward.
+
+So, combining both the induction proof and the algebraic manipulation, I can be confident that the sum of the first n odd natural numbers equals n squared.
+</think>
+
+The sum of the first \( n \) odd natural numbers is equal to \( n^2 \). 
+
+To prove this, we can use the principle of mathematical induction.
+
+**Base Case (\( n = 1 \))**:
+The first odd natural number is 1. Thus, the sum is:
+\[ 1 = 1^2 \]
+The base case holds true.
+
+**Inductive Step**:
+Assume that for some integer \( k \geq 1 \), the sum of the first \( k \) odd natural numbers is \( k^2 \). That is:
+\[ 1 + 3 + 5 + \ldots + (2k - 1) = k^2 \]
+
+We need to show that the sum of the first \( k + 1 \) odd natural numbers is \( (k + 1)^2 \).
+
+Consider the sum up to \( k + 1 \):
+\[ 1 + 3 + 5 + \ldots + (2k - 1) + (2(k + 1) - 1) \]
+Using the induction hypothesis:
+\[ k^2 + (2k + 2 - 1) = k^2 + (2k + 1) \]
+\[ = k^2 + 2k + 1 \]
+\[ = (k + 1)^2 \]
+
+Thus, by the principle of mathematical induction, the statement holds for all natural numbers \( n \). Therefore, the sum of the first \( n \) odd natural numbers is equal to \( n^2 \).<｜end▁of▁sentence｜>

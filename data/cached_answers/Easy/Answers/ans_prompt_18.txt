@@ -1,0 +1,10 @@
+<｜begin▁of▁sentence｜>Simplify \( \frac{15}{20} \).<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+
+</think>
+
+我们可以通过约分来简化分数 \( \frac{15}{20} \)：
+
+1. **找出最大公约数 (GCD)**：首先，找到分子 15 和分母 20 的最大公约数，这里是 5。
+2. **约分**：用分子和分母同时除以 5，得到 \( \frac{15 ÷ 5}{20 ÷ 5} = \frac{3}{4} \)。
+
+所以，简化后的分数是 \( \boxed{\frac{3}{4}} \)。<｜end▁of▁sentence｜>

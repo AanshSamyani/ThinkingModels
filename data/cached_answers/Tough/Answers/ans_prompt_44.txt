@@ -1,0 +1,29 @@
+<｜begin▁of▁sentence｜>A shop sells strawberries at $2.00 per pound and blueberries at $1.50 per pound. If you buy 3 pounds of strawberries and 4 pounds of blueberries, how much will you pay?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+First, I need to calculate the total cost of strawberries. Each pound of strawberries costs $2.00, and I'm buying 3 pounds. So, I'll multiply 2 by 3, which equals $6.00.
+
+Next, I'll calculate the cost of blueberries. Each pound of blueberries costs $1.50, and I'm buying 4 pounds. So, I'll multiply 1.50 by 4, which equals $6.00.
+
+Finally, to find the total amount I'll pay, I'll add the cost of strawberries and blueberries together: $6.00 plus $6.00 equals $12.00.
+</think>
+
+To determine the total cost of purchasing strawberries and blueberries, follow these steps:
+
+1. **Calculate the cost of strawberries:**
+   \[
+   3 \text{ pounds} \times \$2.00/\text{pound} = \$6.00
+   \]
+
+2. **Calculate the cost of blueberries:**
+   \[
+   4 \text{ pounds} \times \$1.50/\text{pound} = \$6.00
+   \]
+
+3. **Add both costs together to find the total amount paid:**
+   \[
+   \$6.00 + \$6.00 = \$12.00
+   \]
+
+**Final Answer:**
+\[
+\boxed{\$12.00}
+\]<｜end▁of▁sentence｜>

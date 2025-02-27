@@ -1,0 +1,13 @@
+<｜begin▁of▁sentence｜>
+Okay, so I need to prove that the sum of the first n odd natural numbers equals n squared. Hmm, let me think about how these odd numbers add up. 
+
+First, let me list out some odd numbers to see the pattern. The first few odd numbers are: 1, 3, 5, 7, 9, etc. Now, if I add these together, starting from 1:
+
+1 = 1
+1 + 3 = 4
+1 + 3 + 5 = 9
+1 + 3 + 5 + 7 = 16
+...
+Seems like it's adding up to something. Wait, 1=1², 4=2²,9=3²,16=4²... Oh! So, it looks like the sum of the first n odd numbers is n². But how can I prove this?
+
+Maybe induction would work. So, let's try mathematical

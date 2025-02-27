@@ -1,0 +1,35 @@
+<｜begin▁of▁sentence｜>
+
+</think>
+
+To prove that the sum of the first \( n \) odd natural numbers is equal to \( n^2 \), let's consider the sequence of odd numbers:
+
+\[1, 3, 5, 7, \dots\]
+
+Let's denote the sum of the first \( n \) odd numbers as \( S_n \). So,
+
+\[
+S_n = 1 + 3 + 5 + 7 + \dots + (2n-1)
+\]
+
+To prove that \( S_n = n^2 \), we'll use mathematical induction.
+
+**Base Case:**
+
+For \( n = 1 \):
+
+\[
+S_1 = 1 = 1^2 = 1
+\]
+
+The base case holds.
+
+**Inductive Step:**
+
+Assume that the statement holds for some \( k \geq 1 \), i.e.,
+
+\[
+S_k = k^2
+\]
+
+Now consider \( n

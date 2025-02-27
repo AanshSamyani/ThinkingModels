@@ -1,0 +1,108 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I need to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, let me think about how to approach this.
+
+First, I should make sure I understand what an odd natural number is. Odd numbers are numbers that aren't divisible by 2, right? So the first few odd numbers are 1, 3, 5, 7, and so on. So the sequence is 1, 3, 5, 7,..., up to the nth odd number.
+
+Wait, how do I find the nth odd number? Let me see. The first odd number is 1, which is 2*1 - 1. The second is 3, which is 2*2 - 1. The third is 5, which is 2*3 - 1, and so on. So the pattern seems to be that the nth odd number is 2n - 1. That makes sense. So the sequence is 2n - 1 for n starting from 1.
+
+Now, I need to find the sum of the first n such numbers. So the sum S would be 1 + 3 + 5 + 7 + ... + (2n - 1). I need to prove that S equals n squared. Let me test this with a small value of n to see if it works.
+
+Let's take n = 1. The first odd number is 1. Sum S = 1. n squared = 1² = 1. Okay, that works.
+
+n = 2. First two odd numbers: 1 + 3 = 4. n² = 4. That's good.
+
+n = 3. 1 + 3 + 5 = 9. 3² = 9. Nice.
+
+n = 4. 1 + 3 + 5 + 7 = 16. 4² = 16. Also works.
+
+Okay, so the formula seems correct for these small cases. But now I need to show it in general.
+
+I remember that there is a formula for the sum of an arithmetic series. Let me recall: the sum S of the first m terms of an arithmetic series is given by S = m/2 * [2a + (m - 1)d], where a is the first term and d is the common difference.
+
+In our case, the sequence of odd numbers is an arithmetic series with a = 1 and d = 2.
+
+So applying the formula, the sum S would be S = m/2 * [2*1 + (m - 1)*2] = m/2 * [2 + 2m - 2] = m/2 * (2m) = m/2 * 2m = m².
+
+Wait a minute, so the sum S equals m squared. In our case, m is n because we are summing the first n odd numbers. So S = n². That proves the formula. That seems straightforward.
+
+But let me try another method to ensure it's correct. Maybe I can visualize it or use induction.
+
+First, arithmetic series approach gave me a direct proof. But just to be thorough, let me try mathematical induction.
+
+For mathematical induction, I need to show two things: the base case and the inductive step.
+
+Base case: n = 1. Sum is 1. 1² = 1. So base case holds.
+
+Inductive step: Assume that the formula holds for n = k, i.e., the sum of the first k odd numbers is k². Now, I need to show that the sum of the first k + 1 odd numbers is (k + 1)².
+
+So, the sum for k + 1 terms would be S = [sum of first k odd numbers] + (2(k + 1) - 1) = k² + (2k + 2 - 1) = k² + (2k + 1) = k² + 2k + 1 = (k + 1)².
+
+Which completes the inductive step. Therefore, by induction, the formula holds for all natural numbers n.
+
+Hmm, both methods—using the arithmetic series formula and induction—lead me to the conclusion that the sum of the first n odd natural numbers is n squared. So I think this proves the statement.
+
+Alternatively, I remember there's a visualization where you can arrange squares in a certain way to show the sum. Maybe it's similar. Imagine laying out odd numbers as layers of squares: 1x1, then adding 3 as a layer of 1x3, then 5 as a layer of 1x5, etc. When you stack them up, you form a bigger square. So that might be another way to see why the sum equals n squared.
+
+But since both the arithmetic series and induction methods have confirmed the result, I feel confident in stating the proof.
+</think>
+
+The sum of the first \( n \) odd natural numbers is indeed equal to \( n^2 \). Here's a step-by-step explanation and proof:
+
+**Step 1: Understanding the Sequence**
+The first \( n \) odd natural numbers form the sequence:
+\[ 1, 3, 5, 7, \dots, (2n - 1) \]
+
+**Step 2: Applying the Arithmetic Series Formula**
+The sum \( S \) of the first \( m \) terms of an arithmetic series is given by:
+\[ S = \frac{m}{2} \times [2a + (m - 1)d] \]
+where:
+- \( a = 1 \) is the first term,
+- \( d = 2 \) is the common difference,
+- \( m = n \) is the number of terms.
+
+Plugging these values into the formula:
+\[ S = \frac{n}{2} \times [2 \times 1 + (n - 1) \times 2] \]
+\[ S = \frac{n}{2} \times [2 + 2n - 2] \]
+\[ S = \frac{n}{2} \times 2n \]
+\[ S = n^2 \]
+
+**Step 3: Mathematical Induction (Alternative Proof)**
+To further verify, we can use mathematical induction.
+
+**Base Case (n = 1):**
+Sum of the first 1 odd number: \( 1 \).
+\[ 1^2 = 1 \]
+Thus, the base case holds.
+
+**Inductive Step:**
+Assume the formula holds for \( n = k \), i.e.,
+\[ 1 + 3 + 5 + \dots + (2k - 1) = k^2 \]
+We need to show it holds for \( n = k + 1 \):
+\[ 1 + 3 + 5 + \dots + (2k - 1) + (2(k + 1) - 1) = (k + 1)^2 \]
+Using the inductive hypothesis:
+\[ k^2 + (2k + 2 - 1) = k^2 + 2k + 1 \]
+\[ = (k + 1)^2 \]
+Thus, the inductive step holds.
+
+**Conclusion:**
+Both the arithmetic series formula and mathematical induction confirm that the sum of the first \( n \) odd natural numbers is \( n^2 \).
+
+```lean4
+theorem sum_odd : ∀ n, sum (fun k : ℕ => if Nat.odd? k then 1 else 0) n = n ^ 2 := by
+  intro n
+  -- Unfold the definition of sum and use a recursive approach to prove the statement.
+  unfold sum
+  -- Use the recursive theorem for the sum of an arithmetic series.
+  apply Eq.symm
+  induction n with
+  | zero =>
+    -- Base case: sum of the first 0 odd numbers is 0.
+    simp
+  | succ n ih =>
+    -- Inductive step: assume the statement holds for n, prove it for n + 1.
+    simp_all [Nat.add_comm, Nat.add_left_comm, Nat.add_assoc]
+    -- Simplify the expression using the inductive hypothesis and properties of arithmetic series.
+    omega
+```<｜end▁of▁sentence｜>

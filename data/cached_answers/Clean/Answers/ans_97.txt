@@ -1,0 +1,49 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+</think>
+
+**Proof:**
+
+**Theorem:** The sum of the first \( n \) odd natural numbers is equal to \( n^2 \).
+
+**Proof:**
+
+1. **Understanding Odd Natural Numbers:**
+   
+   The sequence of odd natural numbers starts from 1 and increases by 2 each time. The first \( n \) odd natural numbers are:
+   \[
+   1, 3, 5, 7, \ldots, (2n - 1)
+   \]
+   
+2. **Expressing the Sum:**
+   
+   Let \( S \) be the sum of the first \( n \) odd natural numbers. Then:
+   \[
+   S = 1 + 3 + 5 + 7 + \ldots + (2n - 1)
+   \]
+   
+3. **Calculating the Sum:**
+   
+   We can observe that this sequence forms an arithmetic series where each term increases by 2. The sum of an arithmetic series is given by:
+   \[
+   S = \frac{\text{Number of terms}}{2} \times (\text{First term} + \text{Last term})
+   \]
+   
+   - **Number of terms:** \( n \)
+   - **First term:** \( 1 \)
+   - **Last term:** \( 2n - 1 \)
+   
+   Plugging these values into the formula:
+   \[
+   S = \frac{n}{2} \times (1 + (2n - 1)) = \frac{n}{2} \times (2n) = n \times n = n^2
+   \]
+   
+4. **Conclusion:**
+   
+   Therefore, the sum of the first \( n \) odd natural numbers is equal to \( n^2 \):
+   \[
+   S = n^2
+   \]
+
+This completes the proof.<｜end▁of▁sentence｜>

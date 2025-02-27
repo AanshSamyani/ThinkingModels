@@ -1,0 +1,34 @@
+<｜begin▁of▁sentence｜>Find the perimeter of a rectangle with length 7 and width 3.<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+To determine the perimeter of a rectangle, I know that the formula involves adding up all the sides. Since a rectangle has two pairs of equal sides—one length and one width—the formula simplifies to twice the length plus twice the width.
+
+Given the length is 7 and the width is 3, I substitute these values into the formula:
+
+Perimeter = 2 × length + 2 × width = 2 × 7 + 2 × 3.
+
+Calculating each part separately:
+
+2 × 7 = 14
+2 × 3 = 6
+
+Adding these together gives the total perimeter:
+
+14 + 6 = 20.
+
+Therefore, the perimeter of the rectangle is 20.
+</think>
+
+To find the perimeter of a rectangle, you use the formula:
+
+\[
+\text{Perimeter} = 2 \times (\text{Length} + \text{Width})
+\]
+
+Given the length is \(7\) and the width is \(3\), substitute these values into the formula:
+
+\[
+\text{Perimeter} = 2 \times (7 + 3) = 2 \times 10 = 20
+\]
+
+\[
+\boxed{20}
+\]<｜end▁of▁sentence｜>

@@ -1,0 +1,115 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I need to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, let me think about how to approach this. I remember that odd numbers are numbers like 1, 3, 5, 7, and so on. Each odd number can be represented as 2k - 1, where k starts at 1. So, the first few odd numbers would be 1 = 2*1 -1, 3 = 2*2 -1, 5 = 2*3 -1, etc. 
+
+Alright, so if I want the sum of the first n odd numbers, it would be like adding 1 + 3 + 5 + ... up to the nth term. I guess I need a formula for that. Maybe there's a pattern when I list these sums for different n. Let me try calculating the sums for small values of n to see if I can spot a pattern.
+
+For n = 1: Sum = 1
+n = 2: Sum = 1 + 3 = 4
+n = 3: Sum = 1 + 3 + 5 = 9
+n = 4: Sum = 1 + 3 + 5 + 7 = 16
+n = 5: Sum = 1 + 3 + 5 + 7 + 9 = 25
+
+Wait a second! The sums are 1, 4, 9, 16, 25... Those are all perfect squares. So it seems the sum is equal to n². But I need to prove this, not just calculate it for small numbers.
+
+I remember something about arithmetic series. An arithmetic series is a sequence of numbers with a constant difference between consecutive terms. In this case, the difference between each odd number is 2. Let me confirm: 3 - 1 = 2, 5 - 3 = 2, 7 - 5 = 2, and so on. Yes, so it is an arithmetic series with first term a₁ = 1 and common difference d = 2.
+
+The formula for the sum of the first n terms of an arithmetic series is Sₙ = (n/2)(2a₁ + (n - 1)d). Let's plug in our values here.
+
+Sₙ = (n/2)(2*1 + (n - 1)*2)
+Simplify inside the parentheses: 2*1 is 2, and (n -1)*2 is 2n - 2.
+So, Sₙ = (n/2)(2 + 2n - 2)
+Simplify further: 2 - 2 cancels out, so it becomes (n/2)(2n)
+Which simplifies to Sₙ = (n/2)*(2n) = n * n = n²
+
+Wow, so using the arithmetic series formula worked out perfectly! So the sum of the first n odd natural numbers is indeed n squared. That makes sense because each odd number adds a layer or something, and over n layers, the total adds up to n squared.
+
+Wait, is there another way to think about this? Maybe using visualization or another mathematical concept. If I imagine representing these numbers as dots, maybe in a square formation? For example, the first odd number, 1, can be represented as a single dot, which is like 1x1 square. The next odd number, 3, can be shown as a 2x2 square minus a 1x1 square, which leaves 3 dots. Hmm, not sure if that helps directly, but it's interesting.
+
+Alternatively, maybe induction could be used to prove this formula. Let me try that. For mathematical induction, I need to show that the formula holds for the base case, like n = 1, which we've already seen, and then assume it holds for some arbitrary k and show that it must then hold for k + 1.
+
+Base case: n = 1, sum = 1, which equals 1² = 1. So, base case holds.
+
+Inductive step: Assume that for some integer k ≥ 1, the sum of the first k odd numbers is k². Now, let's consider the sum of the first k + 1 odd numbers, which is S_{k+1} = S_k + (2(k + 1) - 1). From our assumption, S_k = k², so S_{k+1} = k² + (2k + 2 - 1) = k² + (2k + 1). 
+
+Simplify that: k² + 2k + 1 = (k + 1)². Which is exactly what we wanted to show. So, by induction, the formula holds for all natural numbers n.
+
+So, I've used two methods: the arithmetic series formula and mathematical induction. Both confirm that the sum of the first n odd natural numbers is n squared. It's cool how different approaches lead to the same conclusion!
+</think>
+
+To prove that the sum of the first \( n \) odd natural numbers is equal to \( n^2 \), we can use mathematical induction and the properties of arithmetic series.
+
+**Step-by-Step Explanation and Proof:**
+
+**1. Understanding the Odd Numbers:**
+An odd number can be expressed as \( 2k - 1 \), where \( k \) is a positive integer. Thus, the first \( n \) odd natural numbers are:
+\[ 1, 3, 5, 7, \ldots, (2n - 1) \]
+
+**2. Sum of the First \( n \) Odd Numbers:**
+We need to find the sum \( S \) of these \( n \) terms:
+\[ S = 1 + 3 + 5 + 7 + \ldots + (2n - 1) \]
+
+**3. Using Arithmetic Series Formula:**
+An arithmetic series has a constant difference between consecutive terms. Here, the first term \( a_1 = 1 \), and the common difference \( d = 2 \).
+
+The formula for the sum of the first \( n \) terms of an arithmetic series is:
+\[ S_n = \frac{n}{2} [2a_1 + (n - 1)d] \]
+
+Plugging in the values:
+\[ S_n = \frac{n}{2} [2(1) + (n - 1)(2)] \]
+\[ S_n = \frac{n}{2} [2 + 2n - 2] \]
+\[ S_n = \frac{n}{2} (2n) \]
+\[ S_n = n^2 \]
+
+**4. Mathematical Induction:**
+
+- **Base Case (\( n = 1 \)):**
+  The sum of the first 1 odd number is 1.
+  \[ S_1 = 1 = 1^2 \]
+  The base case holds true.
+
+- **Inductive Step:**
+  Assume the formula holds for some integer \( k \), i.e.,
+  \[ S_k = 1 + 3 + 5 + \ldots + (2k - 1) = k^2 \]
+  
+  We need to show that:
+  \[ S_{k+1} = S_k + (2(k + 1) - 1) = (k + 1)^2 \]
+  
+  Starting with the inductive hypothesis:
+  \[ S_k = k^2 \]
+  
+  Adding the next odd number to the sum:
+  \[ S_{k+1} = k^2 + (2k + 2 - 1) \]
+  \[ S_{k+1} = k^2 + (2k + 1) \]
+  \[ S_{k+1} = k^2 + 2k + 1 \]
+  \[ S_{k+1} = (k + 1)^2 \]
+  
+  Thus, if the formula holds for \( n = k \), it also holds for \( n = k + 1 \).
+
+By the principle of mathematical induction, the formula holds for all positive integers \( n \).
+
+**Conclusion:**
+The sum of the first \( n \) odd natural numbers is equal to \( n^2 \), both by directly applying the arithmetic series formula and by using mathematical induction.
+
+```lean4
+theorem sum_odd_sq : ∀ n : ℕ, 
+  Sum (fun i => i) (fun i => 2 * i - 1) n = n ^ 2 := by
+  intro n
+  induction n with
+  | zero =>
+    -- Base case: When n = 0, the sum is trivially 0.
+    simp [Sum, mul_zero, zero_add]
+  | succ n hn =>
+    -- Inductive step: Assume the sum of the first n odd numbers is n^2.
+    -- We need to show the sum of the first n+1 odd numbers is (n+1)^2.
+    simp_all [Nat.sum_add, mul_succ]
+    -- Simplify the expression using the properties of multiplication and addition.
+    -- The term 2 * (n + 1) - 1 represents the next odd number in the sequence.
+    -- Simplify further to get 2n + 1.
+    -- Using the inductive hypothesis, we know the sum up to n is n^2.
+    -- Add the next term to the sum to get n^2 + (2n + 1).
+    -- Simplify to get (n + 1)^2.
+    -- Use the ring tactic to simplify the algebraic expression.
+    <;> ring
+```<｜end▁of▁sentence｜>

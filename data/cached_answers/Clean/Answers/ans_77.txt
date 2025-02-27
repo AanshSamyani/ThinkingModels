@@ -1,0 +1,100 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Okay, so I have to prove that the sum of the first n odd natural numbers is equal to n squared. Hmm, where do I start? Let me think about what the first few odd numbers are. The odd numbers are 1, 3, 5, 7, and so on. So the first one is 1, the second is 3, the third is 5, and the fourth is 7, right?
+
+Let me write them down to visualize the pattern better. The sum of the first 1 odd number: that's just 1. So 1 equals 1 squared, which is 1. Okay, that works. Now, the sum of the first 2 odd numbers: 1 + 3 equals 4, and 4 is 2 squared. Nice, still holding up.
+
+Continuing, the sum of the first 3 is 1 + 3 + 5, which is 9, and that's 3 squared. Wow, another hit. Hmm, I'm noticing a pattern here. The sum of the first n odd numbers is n squared. But I need to prove this, not just observe it.
+
+Maybe I can use mathematical induction? I remember that induction involves proving a base case and then showing that if it's true for some number k, it must be true for k + 1. Let me try that.
+
+First, the base case: n = 1. The sum is 1, which is 1 squared. That checks out.
+
+Now, assuming it's true for some integer k, so that the sum of the first k odd numbers is k squared. Then for k + 1, the sum would be the sum of the first k plus the (k + 1)th odd number. The (k + 1)th odd number is 2(k + 1) - 1, which simplifies to 2k + 1. So the sum becomes k squared plus 2k + 1. Let me compute that: k squared plus 2k plus 1 is equal to (k + 1) squared. That proves the inductive step.
+
+Wait, is that right? Let me recheck. If I have the sum up to k, which is k squared, then adding the next odd number, which is 2k + 1, so k squared + (2k + 1) = k squared + 2k + 1, which is indeed (k + 1) squared. Yeah, that makes sense.
+
+Okay, so by induction, the formula holds for all natural numbers n.
+
+Alternatively, is there another way to think about this? Maybe using some algebraic identities or visual patterns. I recall that the sum of consecutive odd numbers can form a square. For example, each odd number can be thought of as adding layers to a square. Like, the first odd number is 1, the second adds a layer to make a 2x2 square, the third adds another layer to make a 3x3 square, and so on. So each time you add the next odd number, you're expanding the square by one unit on each side, thereby increasing the area by the next odd number.
+
+Let me try to formalize that idea. The square of n is equal to (n - 1) squared plus 2n - 1. Let me compute both sides:
+
+Left side: n squared.
+
+Right side: (n - 1) squared + (2n - 1) = (n squared - 2n + 1) + 2n - 1 = n squared - 2n + 1 + 2n - 1 = n squared.
+
+So it matches up, meaning that the square of n is indeed equal to the sum of the first n odd numbers.
+
+This seems to confirm my earlier result from induction. Both methods lead to the conclusion that the sum of the first n odd numbers is n squared.
+
+I wonder if there's a connection to number theory or sequences here? Maybe the sequence of odd numbers is a linear sequence with a common difference of 2, and its sum has a quadratic formula, as it should be.
+
+Another angle could be using the formula for the sum of an arithmetic series. The sum of the first n terms of an arithmetic series is (n/2)*(first term + last term). Here, the first term is 1, and the nth term is 2n - 1. So the sum would be (n/2)*(1 + (2n - 1)) = (n/2)*(2n) = n squared. That also works.
+
+So there are multiple ways to approach this proof, each reinforcing the idea that the sum of the first n odd numbers is indeed n squared.
+
+In summary, through mathematical induction, recognizing the square expansion, or applying the arithmetic series formula, I've arrived at the conclusion that the sum of the first n odd natural numbers is equal to n squared. Each method provides a solid foundation for the proof, and they all converge on the same result.
+</think>
+
+To prove that the sum of the first \( n \) odd natural numbers is equal to \( n^2 \), we can use mathematical induction.
+
+**Proof by Mathematical Induction:**
+
+1. **Base Case (\( n = 1 \)):**
+   - The first odd natural number is 1.
+   - Sum = 1.
+   - \( 1^2 = 1 \).
+   - Thus, the statement holds for \( n = 1 \).
+
+2. **Inductive Step:**
+   - Assume that the statement holds for some integer \( k \geq 1 \). That is,
+     \[
+     1 + 3 + 5 + \dots + (2k - 1) = k^2
+     \]
+   - We need to show that the statement holds for \( k + 1 \). That is,
+     \[
+     1 + 3 + 5 + \dots + (2k - 1) + (2(k + 1) - 1) = (k + 1)^2
+     \]
+   - Simplify the left side:
+     \[
+     k^2 + (2k + 1) = k^2 + 2k + 1 = (k + 1)^2
+     \]
+   - Thus, if the statement holds for \( k \), it also holds for \( k + 1 \).
+
+By the principle of mathematical induction, the statement is true for all natural numbers \( n \). Therefore, the sum of the first \( n \) odd natural numbers is \( n^2 \).
+
+**Alternative Proof:**
+
+The sum of the first \( n \) odd numbers can be represented algebraically. The \( n \)-th odd number is \( 2n - 1 \). The sum of the first \( n \) odd numbers is:
+\[
+1 + 3 + 5 + \dots + (2n - 1)
+\]
+This is an arithmetic series with first term \( a = 1 \) and common difference \( d = 2 \). The sum \( S \) of the first \( n \) terms is given by:
+\[
+S = \frac{n}{2} \times (2a + (n - 1)d)
+\]
+Substituting the values:
+\[
+S = \frac{n}{2} \times (2 \times 1 + (n - 1) \times 2) = \frac{n}{2} \times (2 + 2n - 2) = \frac{n}{2} \times 2n = n^2
+\]
+Hence, the sum of the first \( n \) odd natural numbers is \( n^2 \).
+
+**Another Proof Using Algebraic Expansion:**
+
+The square of \( n \) can be expressed as the sum of the first \( n \) odd numbers. Expanding \( n^2 \) as:
+\[
+n^2 = (n - 1)^2 + (2n - 1)
+\]
+Expanding \( (n - 1)^2 \):
+\[
+(n - 1)^2 = n^2 - 2n + 1
+\]
+Adding \( 2n - 1 \):
+\[
+n^2 - 2n + 1 + 2n - 1 = n^2
+\]
+Thus, the sum of the first \( n \) odd numbers equals \( n^2 \).
+
+All methods confirm that the sum of the first \( n \) odd natural numbers is \( n^2 \).<｜end▁of▁sentence｜>

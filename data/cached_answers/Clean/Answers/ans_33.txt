@@ -1,0 +1,34 @@
+<｜begin▁of▁sentence｜>
+Prove that the sum of first n odd natural numbers is equal to n^2.
+<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+</think>
+
+To prove that the sum of the first \( n \) odd natural numbers is equal to \( n^2 \), we can use mathematical induction.
+
+**Proof by Induction:**
+
+**Base Case (\( n = 1 \)):**
+The first odd natural number is 1.
+\[
+1 = 1^2
+\]
+The base case holds true.
+
+**Inductive Step:**
+Assume that the statement holds true for some integer \( k \geq 1 \); that is:
+\[
+\text{Sum of first } k \text{ odd natural numbers} = k^2
+\]
+The \( (k+1) \)-th odd natural number is \( 2k + 1 \).
+Adding this to the sum of the first \( k \) odd natural numbers:
+\[
+k^2 + (2k + 1) = k^2 + 2k + 1 = (k + 1)^2
+\]
+Thus, if the statement holds for \( k \), it also holds for \( k + 1 \).
+
+**Conclusion:**
+By the principle of mathematical induction, the sum of the first \( n \) odd natural numbers is indeed \( n^2 \).
+
+\[
+\boxed{\sum_{i=0}^{n-1} (2i + 1) = n^2}
+\]<｜end▁of▁sentence｜>

@@ -1,0 +1,49 @@
+<｜begin▁of▁sentence｜>A shop sells oranges at $0.60 each and grapes at $1.20 per pound. If you buy 5 oranges and 2 pounds of grapes, how much will you pay?<｜end▁of▁sentence｜><｜begin▁of▁sentence｜>
+Alright, so I just came across this problem about buying oranges and grapes at a shop. It says oranges cost $0.60 each and grapes cost $1.20 per pound. The question is, if I buy 5 oranges and 2 pounds of grapes, how much will I pay in total? Hmm, okay, let me figure this out step by step.
+
+First, I need to understand what exactly each item costs and how many of each I'm buying. So, oranges are priced at 60 cents each, and I'm buying 5 of them. Grapes are a bit trickier because they're priced per pound, and I need to buy 2 pounds. Got it.
+
+Let me break this down into two separate calculations because there are two items involved here, and I can't combine them unless I can figure out a common unit. So, I'll handle the oranges first. Each orange is $0.60, and I'm buying 5. To find out how much that will cost, I need to multiply the price per orange by the number of oranges I'm purchasing.
+
+Alright, let me write that out. So, 5 oranges times $0.60 per orange. Hmm, let's calculate that. 5 multiplied by 0.60. Well, 5 times 0.6 is 3, right? So, that's $3.00. So, 5 oranges will cost me $3.00. That part seems straightforward.
+
+Now, moving on to the grapes. Grapes are a bit more involved because they're priced per pound, and I have to buy 2 pounds. Each pound is $1.20, so I need to figure out how much 2 pounds will cost. Again, this seems like a simple multiplication problem. I need to multiply the price per pound by the number of pounds.
+
+So, 2 pounds times $1.20 per pound. Hmm, let's compute that. 2 times 1.20 is equal to 2.40. So, 2 pounds of grapes will cost me $2.40. Okay, so that part seems okay too.
+
+Now, the next step is to figure out the total amount I need to pay for both the oranges and the grapes. That means I need to add the cost of the oranges to the cost of the grapes. So, the total cost will be the sum of $3.00 and $2.40.
+
+Let me write that down. $3.00 plus $2.40. Let me add those together. 3 plus 2 is 5, and 0.00 plus 0.40 is 0.40. So, adding those together gives me $5.40. So, the total amount I need to pay is $5.40.
+
+Wait a second, let me double-check my calculations to make sure I didn't make any mistakes. Let's verify each step again.
+
+First, the cost of oranges: 5 oranges at $0.60 each. 5 times 0.60 is indeed 3.00. That makes sense because 5 multiplied by 0.6 is 3.00. So, that part checks out.
+
+Next, the cost of grapes: 2 pounds at $1.20 per pound. 2 times 1.20 is 2.40. That's correct because 2 times 1 is 2, and 2 times 0.20 is 0.40. So, adding them gives 2.40. So, that also looks right.
+
+Now, adding the two totals together. $3.00 plus $2.40. Adding the whole numbers first, 3 plus 2 is 5. Then, adding the decimal parts, 0.00 plus 0.40 is 0.40. So, altogether, that's $5.40. That seems right.
+
+So, my calculations check out. I didn't make any mistakes in the arithmetic. I just need to make sure I'm interpreting the question correctly. So, I bought 5 oranges at $0.60 each and 2 pounds of grapes at $1.20 per pound. The calculations add up correctly, giving me a total of $5.40.
+
+Therefore, I can confidently say that the total amount I will pay is $5.40.
+</think>
+
+To determine the total cost of buying 5 oranges and 2 pounds of grapes, we proceed as follows:
+
+1. **Calculate the cost of oranges:**
+   \[
+   5 \text{ oranges} \times \$0.60/\text{orange} = \$3.00
+   \]
+
+2. **Calculate the cost of grapes:**
+   \[
+   2 \text{ pounds} \times \$1.20/\text{pound} = \$2.40
+   \]
+
+3. **Add the two amounts together to find the total cost:**
+   \[
+   \$3.00 + \$2.40 = \$5.40
+   \]
+
+**Final Answer:**  
+You will pay a total of $\boxed{5.40}$ dollars.<｜end▁of▁sentence｜>
