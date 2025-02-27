@@ -3,6 +3,7 @@ This is the codebase supplemnting my application to Neel's MATS 8.0 stream.
 
 
 #### Code Structure
+```
 ├── src
     ├── cache_activations.py                    
     ├── load_mlp_activations.py                    
@@ -26,7 +27,7 @@ This is the codebase supplemnting my application to Neel's MATS 8.0 stream.
 ├── README.md 
 
 ├── requirements.txt
-
+```
 #### General Info
 - Use the code in the `src` directory to run your experiments, most of the code with comments necessary and related to interp is stored there. 
 - I have also added raw analysis notebooks in the `raw_notebooks` dir.
